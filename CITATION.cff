@@ -1,0 +1,23 @@
+title: "t-squared: An opinionated template for creating and developing Copier
+  templates"
+abstract: |
+  A template for making Copier templates as a Git repository that follows our
+  strongly opinionated practices for building, developing, and managing a Copier
+  template. See the <a href="https://t-squared.seedcase-project.org">website</a> 
+  for more details.
+authors:
+  - family-names: Johnston
+    given-names: Luke William
+    orcid: "https://orcid.org/0000-0003-4169-2616"
+cff-version: 1.2.0
+# doi: ""
+# date-released: ""
+keywords:
+  - "copier template"
+  - "template"
+  - "template repository"
+  - "template template"
+license: MIT
+message: "If you use this template, please cite it using these metadata."
+repository-code: "https://github.com/seedcase-project/t-squared"
+url: "https://t-squared.seedcase-project.org"
