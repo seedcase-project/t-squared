@@ -1,0 +1,32 @@
+---
+title: "{{< meta titles.full >}}"
+---
+
+{{< include /docs/includes/_badges.qmd >}}
+
+<!-- TODO: Fill in this description -->
+
+This is a template for creating a new repository for ...
+Use this template to quickly get started with
+... as well as having the infrastructure configuration files to make
+developing and building ... easier.
+
+## Features
+
+<!-- TODO: List features here -->
+
+## Want to contribute?
+
+We would love your feedback or contributions! Head over to our
+[GitHub repository]({{< meta links.github >}}) to share your ideas or
+contribute code. Your input makes us better!
+
+::: content-hidden
+### Contributors
+
+{{< include /docs/includes/_contributors.qmd >}}
+:::
+
+## Licensing
+
+This project is licensed under the [MIT License](/LICENSE.md).
