@@ -3,7 +3,7 @@ title: "t-squared: An opinionated template for creating and developing Copier
 abstract: |
   A template for making Copier templates as a Git repository that follows our
   strongly opinionated practices for building, developing, and managing a Copier
-  template. See the <a href="https://t-squared.seedcase-project.org">website</a> 
+  template. See the <a href="https://t-squared.seedcase-project.org">website</a>
   for more details.
 authors:
   - family-names: Johnston
