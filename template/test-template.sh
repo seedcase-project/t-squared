@@ -2,7 +2,7 @@
 
 # TODO: Fill these in based on the questions asked from the template.
 
-# Needs four arguments:
+# Needs these arguments:
 #
 # 1. ...
 # 2. ...
@@ -28,7 +28,6 @@ template_dir="$(pwd)"
 #
 # 1. Template directory
 # 2. Destination directory
-# 3. VCS ref (commit, branch, tag, etc.)
 copy () {
   # '-r HEAD' means use the HEAD, including uncommitted changes.
   uvx copier copy $1 $2 \
@@ -37,9 +36,7 @@ copy () {
     --data NAME1=$NAME1 \
     --data NAME2=$NAME2 \
     # --data other_question="fixed_answer" \
-    --overwrite \
-    --skip-tasks \
-    --trust
+    --overwrite
 }
 
 # Pre-test setup -----
@@ -65,9 +62,7 @@ echo "Testing copy for new projects when: 'NAME1'='$NAME1', 'NAME2'='$NAME2' ---
     uvx copier recopy \
       -r HEAD \
       --defaults \
-      --overwrite \
-      --skip-tasks \
-      --trust &&
+      --overwrite &&
     # Check that copying onto an existing website works -----
     echo "Testing copy in existing projects when: 'NAME1'='$NAME1', 'NAME2'='$NAME2' -----------" &&
     rm .gitignore .copier-answers.yml &&
