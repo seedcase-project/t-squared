@@ -49,17 +49,16 @@ format-md:
 
 # TODO: Add tests with any specific parameters.
 # Test template creation with specific parameters: LIST
-test parameter_1="value":
-    sh ./test-template.sh {{ parameter_1 }}
+test for_seedcase="true" hosting_platform="netlify":
+    sh ./test-template.sh {{ for_seedcase }} {{ hosting_platform }}
 
 # Test template creation through use of the question approach
 test-manual:
     mkdir -p _temp/manual
     uvx copier copy -r HEAD --trust . _temp/manual/test-template
 
-# TODO: Use correct values
 # Run all test-related recipes
-test-all: (test "value")
+test-all: (test "true" "netlify") (test "true" "gh-pages") (test "false" "netlify") (test "false" "gh-pages")
 
 # Clean up any leftover and temporary build files
 cleanup:
