@@ -10,6 +10,7 @@ list-todos:
     --exclude-dir=.quarto \
     --exclude-dir=template/ \
     --exclude=justfile \
+    --exclude=copier.yaml \
     --exclude=_site \
     "TODO" *
 
