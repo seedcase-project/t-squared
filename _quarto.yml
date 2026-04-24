@@ -1,6 +1,5 @@
 project:
-  # TODO: Update if using an extension.
-  type: website
+  type: seedcase-theme
   render:
     # Don't render anything in the template directory.
     - "!template/"
@@ -8,10 +7,8 @@ project:
     - "*.md"
 
 website:
-  # TODO: Set the title of the website
-  title: ""
-  # TODO: Set the Netlify custom domain URL
-  site-url: ""
+  title: "t-squared"
+  site-url: "https://t-squared.seedcase-project.org"
   repo-url: "https://github.com/seedcase-project/t-squared"
   favicon: "_extensions/seedcase-project/seedcase-theme/logos/seedcase/icon.svg"
   navbar:
@@ -50,7 +47,6 @@ website:
             - docs/guide/next-steps.qmd
 
 format:
-  seedcase-theme-html
-    # TODO: Uncomment if using the goatcounter website visitor counter
-    # include-before-body:
-      # - "includes/site-counter.html"
+  seedcase-theme-html:
+    include-before-body:
+      - "includes/site-counter.html"

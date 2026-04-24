@@ -2,10 +2,8 @@ gh:
   repo: t-squared
   org: seedcase-project
 
-# TODO: Fill in the project description
-tagline: ""
+tagline: "A template for creating other Copier templates"
 
 links:
   github: "https://github.com/seedcase-project/t-squared"
-  # TODO: Set the Netlify custom domain URL
-  site: ""
+  site: "https://seedcase-t-squared.netlify.app"
