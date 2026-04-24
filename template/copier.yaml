@@ -1,0 +1,40 @@
+_subdirectory: "template"
+
+# Message to show after generating or regenerating the project successfully
+_message_after_copy: |
+
+  Your project "{{ github_repo }}" has been created successfully!  See
+  the template's guide as well as the "TODO.md" file in the newly created
+  project for more details on the next steps.
+
+# Questions
+for_seedcase:
+  type: bool
+  help: "Is this repository part of the Seedcase Project?"
+  default: false
+
+github_user:
+  type: str
+  help: |
+    What is the name of the GitHub user or organization where the
+    template repository will be or is stored?
+  default: >-
+    {{ "seedcase-project" if for_seedcase else "" }}
+
+github_repo:
+  type: str
+  help: |
+    What is the name of the GitHub repository where the template will be or
+    is stored? We strongly recommend using the default given.
+  default: "{{ _folder_name }}"
+
+# Configurations not asked
+github_repo_spec:
+  type: str
+  default: "{{ github_user }}/{{ github_repo }}"
+  when: false
+
+copyright_year:
+  type: str
+  default: "{{ copyright_year | default('%Y' | strftime) }}"
+  when: false
