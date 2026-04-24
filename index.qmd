@@ -13,8 +13,8 @@ developing and building the website easier.
 
 These are the features included in this template that help with building
 and maintaining a Copier template. Depending on the answers given to the
-template questions, some of these features may not be included in the created
-project:
+template questions, some of these features may not be included in the
+created project:
 
 - Uses [Quarto](https://quarto.org/) Markdown for the website content,
   allowing for easy integration of code, text, and figures.

@@ -15,16 +15,15 @@ metadata-files:
 
 This repository contains a
 [Copier](https://copier.readthedocs.io/en/stable/) template for setting
-up a new repository for a PROJECT.
-We made {{< meta gh.repo >}} because we manage and
-develop several PROJECTS in Seedcase, and this template is designed to
-make it easier to create, develop, and maintain those PROJECTS.
+up a new repository for a PROJECT. We made {{< meta gh.repo >}} because
+we manage and develop several PROJECTS in Seedcase, and this template is
+designed to make it easier to create, develop, and maintain those
+PROJECTS.
 
 Check out our [website]({{< meta links.site >}}) for more information,
 such as the features it provides and a
 [guide]({{< meta links.site >}}/docs/guide) to using the template. For a
-list of changes, see our [changelog](CHANGELOG.md)
-page.
+list of changes, see our [changelog](CHANGELOG.md) page.
 
 ::: callout-tip
 This template repository was generated from the

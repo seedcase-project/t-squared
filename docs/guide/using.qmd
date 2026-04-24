@@ -6,8 +6,8 @@ description: |
 order: 2
 ---
 
-This guide walks through how to use this template to create a new template project or
-apply it to an existing template project.
+This guide walks through how to use this template to create a new
+template project or apply it to an existing template project.
 
 ## Creating a new project
 
@@ -21,9 +21,9 @@ uvx copier copy gh:seedcase-project/t-squared path/to/new-template
 ```
 
 The `copy` command uses the template on GitHub (`gh:`) at the
-`seedcase-project/t-squared` location. The `path/to/` is the location where
-you'd like the new project to be created and `new-template` is the name
-you want to give for the new project's directory and (ideally) the
+`seedcase-project/t-squared` location. The `path/to/` is the location
+where you'd like the new project to be created and `new-template` is the
+name you want to give for the new project's directory and (ideally) the
 GitHub repository for the project. The name should be something short
 and meaningful, ideally lowercase, with `-` instead of spaces, and no
 special characters.

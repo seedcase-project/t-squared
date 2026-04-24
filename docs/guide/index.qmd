@@ -10,4 +10,5 @@ listing:
         - description
 ---
 
-A guide to using t-squared to create and maintain other Copier templates.
+A guide to using t-squared to create and maintain other Copier
+templates.
