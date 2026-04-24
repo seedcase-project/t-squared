@@ -2,29 +2,32 @@ _subdirectory: "template"
 
 # Message to show after generating or regenerating the project successfully
 _message_after_copy: |
-  
+
   Your project "{{ github_repo }}" has been created successfully!  See the
   [guide](https://t-squared.seedcase-project.org/docs/guide) as well as the
-  'TODO.md' file in the newly created project for more details on the next
+  "TODO.md" file in the newly created project for more details on the next
   steps.
 
 # Questions
-is_seedcase_template:
+for_seedcase:
   type: bool
+  help: "Is this repository part of the Seedcase Project?"
   default: false
-  help: "Is this new template from t-squared part of the Seedcase Project?"
 
 github_user:
   type: str
-  help: "What is the name of the GitHub user or organization where the template
-    repository will be or is stored?"
+  help: |
+    What is the name of the GitHub user or organization where the
+    template repository will be or is stored?
   default: >-
-    {{ "seedcase-project" if is_seedcase_template else "" }}
+    {{ "seedcase-project" if for_seedcase else "" }}
 
 github_repo:
   type: str
-  help: "What is the name of the GitHub repository where the template will be or
-    is stored? We strongly recommend using the default given."
+  help: |
+    What is the name of the GitHub repository where the template
+    will be or is stored? We strongly recommend using the default
+    given.
   default: "{{ _folder_name }}"
 
 hosting_provider:
@@ -34,7 +37,7 @@ hosting_provider:
     - netlify
     - gh-pages
   default: >-
-    {{ "netlify" if is_seedcase_template else "gh-pages" }}
+    {{ "netlify" if for_seedcase else "gh-pages" }}
 
 # Configurations not asked
 github_repo_spec:
