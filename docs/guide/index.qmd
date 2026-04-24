@@ -1,0 +1,13 @@
+---
+title: "Guide"
+listing:
+    contents: .
+    type: grid
+    grid-columns: 1
+    sort: "order"
+    fields:
+        - title
+        - description
+---
+
+A guide to using t-squared to create and maintain other Copier templates.
