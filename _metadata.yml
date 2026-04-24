@@ -1,0 +1,11 @@
+gh:
+  repo: t-squared
+  org: seedcase-project
+
+# TODO: Fill in the project description
+tagline: ""
+
+links:
+  github: "https://github.com/seedcase-project/t-squared"
+  # TODO: Set the Netlify custom domain URL
+  site: ""

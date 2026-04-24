@@ -1,0 +1,15 @@
+gh:
+  repo: {{ github_repo }}
+  org: {{ github_user }}
+
+# TODO: Fill in the project description
+tagline: ""
+
+links:
+  github: "https://github.com/{{ github_repo_spec }}"
+  {%- if hosting_provider == "gh-pages" %}
+  site: "https://{{ github_user }}.github.io/{{ github_repo }}/"
+  {%- elif hosting_provider == "netlify" %}
+  # TODO: Set the Netlify custom domain URL
+  site: ""
+  {%- endif %}
