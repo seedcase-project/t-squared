@@ -22,8 +22,8 @@ jobs:
       cancel-in-progress: true
     # Outputs for potential next jobs.
     outputs:
-      previous_version: ${{ steps.version-var.outputs.previous_version }}
-      current_version: ${{ steps.version-var.outputs.current_version }}
+      previous_version: {{ '${{ steps.version-var.outputs.previous_version }}' }}
+      current_version: {{ '${{ steps.version-var.outputs.current_version }}' }}
     steps:
       # This is a useful security step to check for unexpected outbound calls from the runner,
       # which could indicate a compromised token or runner.
@@ -39,9 +39,9 @@ jobs:
         id: app-token
         with:
           # TODO: Confirm this is set up for the repo.
-          app-id: ${{ vars.UPDATE_VERSION_APP_ID }}
+          app-id: {{ '${{ vars.UPDATE_VERSION_APP_ID }}' }}
           # TODO: Confirm this is set up for the repo.
-          private-key: ${{ secrets.UPDATE_VERSION_TOKEN }}
+          private-key: {{ '${{ secrets.UPDATE_VERSION_TOKEN }}' }}
 
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
@@ -49,7 +49,7 @@ jobs:
           # Only need the last commit from the repo.
           fetch-depth: 0
           # Requires the token in order to push changes to the repo for the release.
-          token: ${{ steps.app-token.outputs.token }}
+          token: {{ '${{ steps.app-token.outputs.token }}' }}
 
       # Set this for the bot user who will make the release commit.
       - name: Set bot user
@@ -62,11 +62,11 @@ jobs:
         name: Update version and changelog
         uses: commitizen-tools/commitizen-action@bb4f1df6601e2a1a891506581b0c53acdc88e07d # 0.26.0
         with:
-          github_token: ${{ steps.app-token.outputs.token }}
+          github_token: {{ '${{ steps.app-token.outputs.token }}' }}
           changelog: true
 
       - name: Create GitHub release
-        if: ${{ env.PREVIOUS_REVISION != env.REVISION }}
+        if: {{ '${{ env.PREVIOUS_REVISION != env.REVISION }}' }}
         run: |
           gh release create $REVISION \
             --generate-notes \

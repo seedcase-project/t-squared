@@ -38,23 +38,22 @@ jobs:
         id: app-token
         with:
           # TODO: Make sure that the repo has this variable set up.
-          app-id: ${{ vars.ADD_TO_BOARD_APP_ID }}
+          app-id: {{ '${{ vars.ADD_TO_BOARD_APP_ID }}' }}
           # TODO: Confirm that this secret is set up for this repo.
-          private-key: ${{ secrets.ADD_TO_BOARD }}
+          private-key: {{ '${{ secrets.ADD_TO_BOARD }}' }}
 
       - name: Add issue or PR to project board
         uses: actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e # v1.0.2
         with:
-          project-url: https://github.com/orgs/${{ github.repository_owner }}/projects/${{
-            env.BOARD_NUMBER }}
-          github-token: ${{ steps.app-token.outputs.token }}
+          project-url: "https://github.com/orgs/{{ '${{ github.repository_owner }}' }}/projects/{{ '${{ env.BOARD_NUMBER }}' }}"
+          github-token: {{ '${{ steps.app-token.outputs.token }}' }}
 
       - name: Assign PR to creator
-        if: ${{ github.event_name == 'pull_request' }}
+        if: {{ "${{ github.event_name == 'pull_request' }}" }}
         run: |
           gh pr edit $PR --add-assignee $AUTHOR --repo $REPO
         env:
-          REPO: ${{ github.repository }}
-          AUTHOR: ${{ github.event.pull_request.user.login }}
-          PR: ${{ github.event.pull_request.html_url }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: {{ '${{ github.repository }}' }}
+          AUTHOR: {{ '${{ github.event.pull_request.user.login }}' }}
+          PR: {{ '${{ github.event.pull_request.html_url }}' }}
+          GH_TOKEN: {{ '${{ secrets.GITHUB_TOKEN }}' }}
