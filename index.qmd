@@ -1,5 +1,5 @@
 ---
-title: "{{< meta titles.full >}}"
+title: "{{< meta gh.repo >}}: {{< meta tagline >}}"
 ---
 
 {{< include /docs/includes/_badges.qmd >}}
@@ -12,7 +12,9 @@ developing and building the website easier.
 ## Features
 
 These are the features included in this template that help with building
-and maintaining a copier template:
+and maintaining a Copier template. Depending on the answers given to the
+template questions, some of these features may not be included in the created
+project:
 
 - Uses [Quarto](https://quarto.org/) Markdown for the website content,
   allowing for easy integration of code, text, and figures.
@@ -27,7 +29,8 @@ and maintaining a copier template:
   [commitizen](https://decisions.seedcase-project.org/why-semantic-release-with-commitizen/)
   that are based on messages following
   [Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits/).
-- Uses a [MIT](https://decisions.seedcase-project.org/why-mit-license/) license for the template.
+- Uses a [MIT](https://decisions.seedcase-project.org/why-mit-license/)
+  license for the template.
 - Run checks with [pre-commit](https://pre-commit.com/) hooks to ensure
   consistent formatting and style across the project. It includes checks
   for credentials, typos, and file formatting.
@@ -55,7 +58,7 @@ and maintaining a copier template:
 - [`.zenodo.json`](https://help.zenodo.org/docs/github/describe-software/zenodo-json/)
   file for citation information that provides Zenodo with the necessary
   metadata to create a DOI for the website, as well as `CITATION.cff`
-  file for GitHub to display the citation information on the repository 
+  file for GitHub to display the citation information on the repository
   page.
 - Includes a [GoatCounter](https://www.goatcounter.com/) file for
   website visitor tracking, which is privacy-friendly and does not use
@@ -73,9 +76,11 @@ We would love your feedback or contributions! Head over to our
 [GitHub repository]({{< meta links.github >}}) to share your ideas or
 contribute code. Your input makes us better!
 
+::: content-hidden"
 ### Contributors
 
 {{< include /docs/includes/_contributors.qmd >}}
+:::
 
 ## Licensing
 

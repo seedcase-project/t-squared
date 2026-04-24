@@ -1,15 +1,15 @@
 ---
-title: "{{< meta titles.full >}}"
+title: "{{< meta gh.repo >}}: {{< meta tagline >}}"
 ---
 
 {{< include /docs/includes/_badges.qmd >}}
 
 <!-- TODO: Fill in this description -->
 
-This is a template for creating a new repository for ...
-Use this template to quickly get started with
-... as well as having the infrastructure configuration files to make
-developing and building ... easier.
+This is a template for creating a new repository for... Use this
+template to quickly get started with... as well as having the
+infrastructure configuration files to make developing and building...
+easier.
 
 ## Features
 
