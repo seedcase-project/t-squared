@@ -22,7 +22,7 @@ website:
       - text: "Overview"
         href: index.qmd
       - text: "Guide"
-        href: docs/guide.qmd
+        href: docs/guide/index.qmd
     tools:
       - icon: github
         href: "https://github.com/seedcase-project/t-squared"
@@ -39,6 +39,15 @@ website:
           href: index.qmd
         - CHANGELOG.md
         - CONTRIBUTING.md
+    - id: guide
+      contents:
+        - section: "Guide"
+          href: docs/guide/index.qmd
+          contents:
+            - docs/guide/installing.qmd
+            - docs/guide/using.qmd
+            - docs/guide/updating.qmd
+            - docs/guide/next-steps.qmd
 
 format:
   seedcase-theme-html
