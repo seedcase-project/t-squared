@@ -15,6 +15,13 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.3.2 (2026-04-25)
+
+### Fix
+
+- 🐛 `gh release` needs `env: GH_TOKEN` to work
+- 🐛 use new name `client-id` for GH App
+
 ## 0.3.1 (2026-04-25)
 
 ### Refactor
