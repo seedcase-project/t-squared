@@ -63,8 +63,8 @@ request will be squashed into one commit.
 
 ## :file_folder: Explanation of files and folders
 
-This list describes the default files that are included in the
-template as well as explains a bit more about them and what they are used for.
+This list describes the default files that are included in the template
+as well as explains a bit more about them and what they are used for.
 
 - `.copier-answers.yml`: Contains the answers you gave when copying the
   project from the template.
@@ -80,9 +80,11 @@ template as well as explains a bit more about them and what they are used for.
   configuration file for managing and running checks before each commit.
 - `.typos.toml`: [typos](https://github.com/crate-ci/typos) spell
   checker configuration file.
-- `.zenodo.json`: Structured citation metadata for your project when
-  archived on [Zenodo](https://zenodo.org/). This is used to add the
-  metadata to Zenodo when a GitHub release has been uploaded to Zenodo.
+- `CITATION.cff`: Structured citation metadata for your project when
+  archived on [Zenodo](https://zenodo.org/) and used by GitHub to
+  display the citation information on the repository page. This is used
+  to add the metadata to Zenodo when a GitHub release has been uploaded
+  to Zenodo.
 - `justfile`: [`just`](https://just.systems/man/en/) configuration file
   for scripting project tasks.
 - `.editorconfig`: Editor configuration file for
