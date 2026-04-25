@@ -1,5 +1,4 @@
 - source: project
   netlify:
-    # TODO: Include correct ID and URL
-    - id: ""
+    - id: "117f0184-b452-4153-89dc-ef6c02c2ebbb"
       url: "https://seedcase-project-t-squared.netlify.app"
