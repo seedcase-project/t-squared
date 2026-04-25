@@ -2,8 +2,7 @@
 
 # t-squared: A template for creating other Copier templates
 
-<!-- TODO: Add DOI when published -->
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19757318.svg)](https://doi.org/10.5281/zenodo.19757318)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-teal.json?raw=true)](https://github.com/copier-org/copier)
 [![GitHub
 License](https://img.shields.io/github/license/seedcase-project/t-squared.svg)](https://github.com/seedcase-project/t-squared/blob/main/LICENSE.md)
@@ -56,13 +55,17 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 If you use this project in your work, please cite it as follows:
 
-Johnston L.W. t-squared: An opinionated template for creating and
-developing Copier templates URL: https://t-squared.seedcase-project.org
+Johnston L.W. (2026). t-squared: An opinionated template for creating
+and developing Copier templates DOI: 10.5281/zenodo.19757318 URL:
+https://t-squared.seedcase-project.org
 
 Or as a BibTeX entry:
 
     @misc{YourReferenceHere,
     author = {Johnston, Luke William},
+    doi = {10.5281/zenodo.19757318},
+    month = {4},
     title = {t-squared: An opinionated template for creating and developing Copier templates},
-    url = {https://t-squared.seedcase-project.org}
+    url = {https://t-squared.seedcase-project.org},
+    year = {2026}
     }
