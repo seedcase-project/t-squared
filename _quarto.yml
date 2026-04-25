@@ -49,4 +49,4 @@ website:
 format:
   seedcase-theme-html:
     include-before-body:
-      - "includes/site-counter.html"
+      - "docs/includes/site-counter.html"
