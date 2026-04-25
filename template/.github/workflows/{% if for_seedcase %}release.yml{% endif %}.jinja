@@ -35,7 +35,7 @@ jobs:
       # Using this security pattern for GitHub Apps is recommended by GitHub and ensures that
       # the token is only available for a short time and has limited permissions. Check out
       # <https://guidebook.seedcase-project.org/operations/security> for more details.
-      - uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
+      - uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3.1.1
         id: app-token
         with:
           # TODO: Confirm this is set up for the repo.
@@ -44,7 +44,7 @@ jobs:
           private-key: {{ '${{ secrets.UPDATE_VERSION_TOKEN }}' }}
 
       - name: Checkout
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           # Only need the last commit from the repo.
           fetch-depth: 0
@@ -60,7 +60,7 @@ jobs:
       # This step outputs `REVISION` and `PREVIOUS_REVISION` env variables.
       - id: cz
         name: Update version and changelog
-        uses: commitizen-tools/commitizen-action@bb4f1df6601e2a1a891506581b0c53acdc88e07d # 0.26.0
+        uses: commitizen-tools/commitizen-action@338bbd841b75aaee6bf5340e1fa12f6ab58ff9ff # 0.27.1
         with:
           github_token: {{ '${{ steps.app-token.outputs.token }}' }}
           changelog: true
