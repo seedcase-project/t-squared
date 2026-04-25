@@ -39,7 +39,7 @@ jobs:
         id: app-token
         with:
           # TODO: Confirm this is set up for the repo.
-          app-id: ${{ vars.UPDATE_VERSION_APP_ID }}
+          client-id: ${{ vars.UPDATE_VERSION_APP_ID }}
           # TODO: Confirm this is set up for the repo.
           private-key: ${{ secrets.UPDATE_VERSION_TOKEN }}
 

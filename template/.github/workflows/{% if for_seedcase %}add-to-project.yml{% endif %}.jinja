@@ -38,7 +38,7 @@ jobs:
         id: app-token
         with:
           # TODO: Make sure that the repo has this variable set up.
-          app-id: {{ '${{ vars.ADD_TO_BOARD_APP_ID }}' }}
+          client-id: {{ '${{ vars.ADD_TO_BOARD_APP_ID }}' }}
           # TODO: Confirm that this secret is set up for this repo.
           private-key: {{ '${{ secrets.ADD_TO_BOARD }}' }}
 
