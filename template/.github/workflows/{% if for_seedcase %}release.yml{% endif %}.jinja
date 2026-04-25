@@ -12,7 +12,7 @@ jobs:
   release:
     if: "!startsWith(github.event.head_commit.message, 'build: 🔖 update version')"
     runs-on: ubuntu-latest
-    # To generate release notes, this job needs write access to the repository contents.
+    # To generate releases, this job needs write access to the repository contents.
     permissions:
       contents: write
     # Can only release one version at a time, so need to stop any other jobs that
@@ -67,6 +67,8 @@ jobs:
 
       - name: Create GitHub release
         if: {{ '${{ env.PREVIOUS_REVISION != env.REVISION }}' }}
+        env:
+          GH_TOKEN: {{ '${{ secrets.GITHUB_TOKEN }}' }}
         run: |
           gh release create $REVISION \
             --generate-notes \
