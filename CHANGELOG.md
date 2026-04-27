@@ -15,6 +15,13 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.4.1 (2026-04-27)
+
+### Fix
+
+- 👷 attach commitizen changelog to GitHub release (#7)
+- 🐛 `_badges.qmd` has many `{{<`, so don't use it as Jinja file (#9)
+
 ## 0.4.0 (2026-04-27)
 
 ### Feat
