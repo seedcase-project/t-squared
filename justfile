@@ -2,7 +2,7 @@
   just --list --unsorted
 
 # Run all build-related recipes in the justfile
-run-all: update-quarto-theme sync-template-files check-all format-md test-all build-all
+run-all: update-quarto-theme check-all format-md test-all build-all
 
 # List all TODO items in the repository
 list-todos:
@@ -24,11 +24,6 @@ install-precommit:
 # Update (or add if not present) the Quarto seedcase-theme extension
 update-quarto-theme:
   quarto update seedcase-project/seedcase-theme --no-prompt
-
-# Update files in the template from the Copier parent folder
-sync-template-files:
-  echo "TODO: Copy any files in the root into the template"
-  # cp FROM TO
 
 # Check for spelling errors in files
 check-spelling:
