@@ -53,7 +53,8 @@ format-md:
 # Test template creation through use of the question approach
 test-manual:
     mkdir -p _temp/manual
-    uvx copier copy -r HEAD --trust . _temp/manual/test-template
+  rm -rf _temp/manual/test-template
+  uvx copier copy -r HEAD . _temp/manual/test-template
 
 # Run all test-related recipes
 test-all: (test "true" "netlify") (test "true" "gh-pages") (test "false" "netlify") (test "false" "gh-pages")
