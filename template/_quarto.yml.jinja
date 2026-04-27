@@ -17,17 +17,17 @@ website:
   site-url: ""
   {%- endif %}
   repo-url: "https://github.com/{{ github_repo_spec }}"
-  {%- if for_seedcase %}
+  {% if for_seedcase -%}
   favicon: "_extensions/seedcase-project/seedcase-theme/logos/seedcase/icon.svg"
-  {%- else %}
+  {%- else -%}
   # TODO: Set favicon if relevant.
   # favicon: ""
   {%- endif %}
   navbar:
-    {%- if for_seedcase %}
+    {% if for_seedcase -%}
     logo: "_extensions/seedcase-project/seedcase-theme/logos/seedcase/icon.svg"
     logo-alt: "Seedcase Project logo: Main page"
-    {%- else %}
+    {%- else -%}
     # TODO: Add logo and logo-alt
     logo: ""
     logo-alt: ""
@@ -42,7 +42,7 @@ website:
       - icon: github
         href: "https://github.com/{{ github_repo_spec }}"
         aria-label: "GitHub icon: Source repository"
-      {%- if for_seedcase %}
+      {% if for_seedcase -%}
       - icon: house
         href: "https://seedcase-project.org"
         aria-label: "House icon: Main website for the Seedcase Project"
@@ -54,7 +54,9 @@ website:
       contents:
         - text: "Welcome"
           href: index.qmd
+        {% if for_seedcase -%}
         - CHANGELOG.md
+        {%- endif %}
         - CONTRIBUTING.md
     - id: guide
       contents:
@@ -67,9 +69,9 @@ website:
             - docs/guide/next-steps.qmd
 
 format:
-  {%- if for_seedcase %}
+  {% if for_seedcase -%}
   seedcase-theme-html
-  {%- else %}
+  {%- else -%}
   # TODO: Use Quarto extension if available.
   html:
     theme:
