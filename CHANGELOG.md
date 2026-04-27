@@ -15,6 +15,31 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.4.0 (2026-04-27)
+
+### Feat
+
+- 📝 add TODO item for connecting pre-commit.ci
+
+### Fix
+
+- 📝 add callout-warnings about some post-creation steps
+- ✏️ mistyped "data package", should be "project"
+- ✏️ should be `CITATION.cff`, not `.zenodo.json`
+- ✏️ need to add TODO item for GoatCounter
+- ✏️ site-counter should be in `docs/includes/`
+- ✏️ use Jinja `-` at end of `if` to remove ending space
+
+### Refactor
+
+- ♻️ don't show release badge for non-Seedcase projects
+- 🔨 delete previous manual test folder
+- 🎨 format Markdown files
+- 🔨 also run Markdown formatter on Jinja files
+- 🔨 ignore listing TODO items in `_temp/` folder
+- 🚚 only include CHANGELOG and `.cz.toml` for Seedcase repos
+- 👷 move permissions to workflow level
+
 ## 0.3.2 (2026-04-25)
 
 ### Fix
