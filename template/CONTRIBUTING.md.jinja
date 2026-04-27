@@ -3,9 +3,8 @@
 ## :bug: Issues and bugs
 
 The easiest way to contribute is to report issues or bugs that you might
-find while using {{ github_repo }}. You can do this by creating a
-[new](https://github.com/{{ github_user }}/{{ github_repo }}/issues/new/) issue
-on our GitHub repository.
+find while using {{ github_repo}}. You can do this by creating a
+new issue on our GitHub repository.
 
 ## :pencil2: Adding or modifying content
 
@@ -22,9 +21,9 @@ template. Both the uv and justfile websites have a more detailed guide
 on using uv, but below are some simple instructions to get you started.
 
 It's easiest to first
-[install uv](https://docs.astral.sh/uv/getting-started/installation/) and
-then install justfile with uv.  Once you've installed uv, install justfile by
-running:
+[install uv](https://docs.astral.sh/uv/getting-started/installation/)
+and then install justfile with uv. Once you've installed uv, install
+justfile by running:
 
 ``` bash
 uv tool install rust-just
@@ -105,8 +104,8 @@ as well as explains a bit more about them and what they are used for.
   options.
 - `.rumdl.toml`: [rumdl](https://rumdl.dev) configuration file for
   formatting Markdown files in the project.
-{% if for_seedcase -%}
+  {% if for_seedcase -%}
 - `.cz.toml`:
   [Commitizen](https://commitizen-tools.github.io/commitizen/)
   configuration file for managing versions and changelogs.
-{%- endif %}
+  {%- endif %}
