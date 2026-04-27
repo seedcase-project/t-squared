@@ -1,9 +1,8 @@
 <!-- TODO: Add DOI when published -->
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-teal.json?raw=true.svg)](https://github.com/copier-org/copier)
 [![GitHub License](https://img.shields.io/github/license/{{< meta gh.org >}}/{{< meta gh.repo >}}.svg)](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/blob/main/LICENSE.md)
-{% if for_seedcase -%}
-[![GitHub Release](https://img.shields.io/github/v/release/{{< meta gh.org >}}/{{< meta gh.repo >}}.svg)](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/releases/latest)
-{%- endif %}
+<!-- TODO: Uncomment if you will create releases, otherwise delete -->
+<!-- [![GitHub Release](https://img.shields.io/github/v/release/{{< meta gh.org >}}/{{< meta gh.repo >}}.svg)](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/releases/latest) -->
 [![Test](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/actions/workflows/test.yml/badge.svg)](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/actions/workflows/test.yml)
 [![Build website](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/actions/workflows/build-website.yml/badge.svg)](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/actions/workflows/build-website.yml)
 [![CodeQL](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/actions/workflows/github-code-scanning/codeql)
