@@ -64,6 +64,7 @@ jobs:
         with:
           github_token: {{ '${{ steps.app-token.outputs.token }}' }}
           changelog: true
+          changelog_increment_filename: "changelog_notes.md"
 
       - name: Create GitHub release
         if: {{ '${{ env.PREVIOUS_REVISION != env.REVISION }}' }}
@@ -72,6 +73,7 @@ jobs:
         run: |
           gh release create $REVISION \
             --generate-notes \
+            --notes-file changelog_notes.md \
             --fail-on-no-commits \
             --verify-tag
 
