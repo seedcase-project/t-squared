@@ -55,11 +55,10 @@ created project:
 - Pull Request template for easy creation of new Pull Requests.
 - [VS Code](https://code.visualstudio.com/) settings commonly used by
   contributors working in VS Code.
-- [`.zenodo.json`](https://help.zenodo.org/docs/github/describe-software/zenodo-json/)
-  file for citation information that provides Zenodo with the necessary
-  metadata to create a DOI for the website, as well as `CITATION.cff`
-  file for GitHub to display the citation information on the repository
-  page.
+- [`CITATION.cff`](https://citation-file-format.github.io) file for
+  citation information that provides Zenodo with the necessary metadata
+  to create a DOI for the project and for GitHub to display the citation
+  information on the repository page.
 - Includes a [GoatCounter](https://www.goatcounter.com/) file for
   website visitor tracking, which is privacy-friendly and does not use
   cookies. That means it doesn't need a GDPR notice as no personal data
