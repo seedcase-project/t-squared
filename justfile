@@ -47,11 +47,8 @@ check-all: check-spelling check-urls
 # Format Markdown files
 format-md:
     uvx rumdl fmt --silent
-
-# TODO: Add tests with any specific parameters.
-# Test template creation with specific parameters: LIST
-test for_seedcase="true" hosting_platform="netlify":
-    sh ./test-template.sh {{ for_seedcase }} {{ hosting_platform }}
+  # includes option doesn't work with Jinja files, so do manually
+  uvx rumdl fmt --silent **/*.qmd.jinja **/*.md.jinja
 
 # Test template creation through use of the question approach
 test-manual:

@@ -49,6 +49,8 @@ check-all: check-spelling check-urls
 # Format Markdown files
 format-md:
     uvx rumdl fmt --silent
+  # includes option doesn't work with Jinja files, so do manually
+  uvx rumdl fmt --silent **/*.qmd.jinja **/*.md.jinja
 
 # TODO: Add tests with any specific parameters.
 # Test template creation with specific parameters: LIST
