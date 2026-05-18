@@ -18,8 +18,8 @@ list-todos:
 # Install the pre-commit hooks
 install-precommit:
   uvx pre-commit install
-  uvx pre-commit run --all-files
   uvx pre-commit autoupdate
+  uvx pre-commit run --all-files
 
 # Update (or add if not present) the Quarto seedcase-theme extension
 update-quarto-theme:
