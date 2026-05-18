@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.5.1 (2026-05-18)
+
+### Refactor
+
+- 🔥 remove commitizen pre-commit, we don't need it (#17)
+
 ## 0.5.0 (2026-05-04)
 
 ## 0.4.1 (2026-04-27)
