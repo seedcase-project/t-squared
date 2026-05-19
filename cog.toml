@@ -1,7 +1,7 @@
 from_latest_tag = true
 disable_changelog = true
 disable_bump_commit = true
-# branch_whitelist = ["main"]
+branch_whitelist = ["main"]
 pre_bump_hooks = [
   "uvx git-cliff --tag {{version}}",
   "uvx rumdl fmt CHANGELOG.md",
