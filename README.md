@@ -3,12 +3,12 @@
 # t-squared: A template for creating other Copier templates
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19757318.svg)](https://doi.org/10.5281/zenodo.19757318)
-[![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-teal.json?raw=true)](https://github.com/copier-org/copier)
+[![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-teal.json?raw=true.svg)](https://github.com/copier-org/copier)
 [![GitHub
 License](https://img.shields.io/github/license/seedcase-project/t-squared.svg)](https://github.com/seedcase-project/t-squared/blob/main/LICENSE.md)
 [![GitHub
 Release](https://img.shields.io/github/v/release/seedcase-project/t-squared.svg)](https://github.com/seedcase-project/t-squared/releases/latest)
-[![Test](https://github.com/seedcase-project/t-squared/actions/workflows/test.yml/badge.svg)](https://github.com/seedcase-project/t-squared/actions/workflows/test.yml)
+[![Checks](https://github.com/seedcase-project/t-squared/actions/workflows/checks.yml/badge.svg)](https://github.com/seedcase-project/t-squared/actions/workflows/checks.yml)
 [![Build
 website](https://github.com/seedcase-project/t-squared/actions/workflows/build-website.yml/badge.svg)](https://github.com/seedcase-project/t-squared/actions/workflows/build-website.yml)
 [![CodeQL](https://github.com/seedcase-project/t-squared/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/seedcase-project/t-squared/actions/workflows/github-code-scanning/codeql)
