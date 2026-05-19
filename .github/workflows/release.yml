@@ -34,9 +34,7 @@ jobs:
       - uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3.1.1
         id: app-token
         with:
-          # TODO: Confirm this is set up for the repo.
           client-id: ${{ vars.UPDATE_VERSION_APP_ID }}
-          # TODO: Confirm this is set up for the repo.
           private-key: ${{ secrets.UPDATE_VERSION_TOKEN }}
 
       - name: Checkout
@@ -74,12 +72,16 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Create tag and GitHub release, update changelog
+      - name: Create tag and update changelog
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          cog bump --auto
+
+      - name: Create GitHub release
         if: steps.check_changes.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cog bump --auto
           version=$(cog get-version)
           uvx git-cliff --latest --output RELEASE_NOTES.md --strip all
           gh release create "${version}" \
