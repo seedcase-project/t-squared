@@ -26,6 +26,12 @@ jobs:
       - name: Install justfile
         run: uv tool install rust-just
 
+      # Set this user so that the tests create Git commits.
+      - name: Set bot user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       # TODO: Confirm name of recipe to test template creation.
       - name: Test and check template creation
         run: just test-all
