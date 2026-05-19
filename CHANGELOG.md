@@ -19,14 +19,37 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
-Commits from bots, like dependabot or pre-commit-ci, are not included in
-the changelog.
+Commits from bots, like `dependabot` or `pre-commit-ci`, are not
+included in the changelog.
 
-## 0.6.0 (2026-05-19)
+## [0.6.1](https://github.com/seedcase-project/t-squared/compare/0.6.0..0.6.1) - 2026-05-19
 
-### Feat
+### 🐛 Fixes
 
-- 👷 switch to using Cocogitto and git-cliff for releases (#23)
+- Correct release workflows after running it
+  [#26](https://github.com/seedcase-project/t-squared/pull/26) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([e141c9a](https://github.com/seedcase-project/t-squared/commit/e141c9a1393c62742b3f0e1892892b066f309ae0))
+- Resolve permissions and improve CI logging
+  [#27](https://github.com/seedcase-project/t-squared/pull/27) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([0e54d29](https://github.com/seedcase-project/t-squared/commit/0e54d299f1d136b9aa972242dcb81817454dff65))
+
+## [0.6.0](https://github.com/seedcase-project/t-squared/compare/0.5.1..0.6.0) - 2026-05-19
+
+### ✨ Features
+
+- Switch to using Cocogitto and git-cliff for releases
+  [#23](https://github.com/seedcase-project/t-squared/pull/23) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([13bc974](https://github.com/seedcase-project/t-squared/commit/13bc9740edfc3f25b6f6cad754ce77e93fdab853))
+
+### 👩‍💻 Miscellaneous
+
+- `platform-templates` team is CODEOWNERS
+  [#20](https://github.com/seedcase-project/t-squared/pull/20) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([45c959c](https://github.com/seedcase-project/t-squared/commit/45c959cd2e251c87ad377a6d72c881a8a2102d63))
 
 ## [0.5.1](https://github.com/seedcase-project/t-squared/compare/0.5.0..0.5.1) - 2026-05-18
 

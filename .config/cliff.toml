@@ -1,4 +1,5 @@
 [remote]
+# Strictly don't connect to the internet to generate the changelog.
 offline = false
 
 [remote.github]
@@ -29,7 +30,7 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
-Commits from bots, like dependabot or pre-commit-ci, are not included in
+Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in
 the changelog.
 """
 
