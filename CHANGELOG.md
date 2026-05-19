@@ -22,6 +22,22 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.6.2](https://github.com/seedcase-project/t-squared/compare/0.6.1..0.6.2) - 2026-05-19
+
+### ♻️ Refactor
+
+- Move pre-commit auto-update to before running it in justfile
+  [#21](https://github.com/seedcase-project/t-squared/pull/21) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([9d8ca34](https://github.com/seedcase-project/t-squared/commit/9d8ca34322d958d8b77c57b9e54af652452736c0))
+
+### 💄 Styling
+
+- Update Quarto Seedcase theme
+  [#24](https://github.com/seedcase-project/t-squared/pull/24) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([eb5131e](https://github.com/seedcase-project/t-squared/commit/eb5131ed0697d753d85811313e1251264379ae30))
+
 ## [0.6.1](https://github.com/seedcase-project/t-squared/compare/0.6.0..0.6.1) - 2026-05-19
 
 ### 🐛 Fixes
