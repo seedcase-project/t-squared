@@ -20,10 +20,6 @@ jobs:
     concurrency:
       group: release-group
       cancel-in-progress: true
-    # Outputs for potential next jobs.
-    outputs:
-      previous_version: ${{ steps.version-var.outputs.previous_version }}
-      current_version: ${{ steps.version-var.outputs.current_version }}
     steps:
       # This is a useful security step to check for unexpected outbound calls from the runner,
       # which could indicate a compromised token or runner.
@@ -57,28 +53,35 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # This step outputs `REVISION` and `PREVIOUS_REVISION` env variables.
-      - id: cz
-        name: Update version and changelog
-        uses: commitizen-tools/commitizen-action@338bbd841b75aaee6bf5340e1fa12f6ab58ff9ff # 0.27.1
+      - name: Install Cocogitto
+        uses: cocogitto/cocogitto-action@9a9fe03b31c47444290c0d7f9b1ee1b44ee13f20 # v4.1.0
         with:
-          github_token: ${{ steps.app-token.outputs.token }}
-          changelog: true
-          changelog_increment_filename: "changelog_notes.md"
+          command: check
 
-      - name: Create GitHub release
-        if: ${{ env.PREVIOUS_REVISION != env.REVISION }}
+      # Install uv to use git-cliff and rumdl
+      - name: Set up uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          enable-cache: true
+
+      - name: Check if there are releasable changes
+        continue-on-error: true
+        id: check_changes
+        run: |
+          if cog check --from-latest-tag; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create tag and GitHub release, update changelog
+        if: steps.check_changes.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create $REVISION \
-            --notes-file changelog_notes.md \
-            --fail-on-no-commits \
-            --verify-tag
-
-      # Need to output this to tell any potential next job that a release was made.
-      - id: version-var
-        name: Output version variable
-        run: |
-          echo "previous_version=$PREVIOUS_REVISION" >> "$GITHUB_OUTPUT"
-          echo "current_version=$REVISION" >> "$GITHUB_OUTPUT"
+          cog bump --auto
+          version=$(cog get-version)
+          uvx git-cliff --latest --output RELEASE_NOTES.md --strip all
+          gh release create "${version}" \
+            --title "Release ${version}" \
+            --notes-file RELEASE_NOTES.md
