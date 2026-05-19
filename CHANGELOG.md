@@ -22,6 +22,22 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.0](https://github.com/seedcase-project/t-squared/compare/0.6.2..0.7.0) - 2026-05-19
+
+### ✨ Features
+
+- Consolidate test/check workflows
+  [#25](https://github.com/seedcase-project/t-squared/pull/25) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([f1ed9b5](https://github.com/seedcase-project/t-squared/commit/f1ed9b5bc696c41cb8d246975ea036a15344b2ae))
+
+### 👩‍💻 Miscellaneous
+
+- Add admin team to CODEOWNERS to be notified
+  [#28](https://github.com/seedcase-project/t-squared/pull/28) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([050202e](https://github.com/seedcase-project/t-squared/commit/050202e6a324c704d906bf3283595027d521e601))
+
 ## [0.6.2](https://github.com/seedcase-project/t-squared/compare/0.6.1..0.6.2) - 2026-05-19
 
 ### ♻️ Refactor
