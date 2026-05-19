@@ -30,6 +30,10 @@ included in the changelog.
   [#26](https://github.com/seedcase-project/t-squared/pull/26) by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([e141c9a](https://github.com/seedcase-project/t-squared/commit/e141c9a1393c62742b3f0e1892892b066f309ae0))
+- Resolve permissions and improve CI logging
+  [#27](https://github.com/seedcase-project/t-squared/pull/27) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([0e54d29](https://github.com/seedcase-project/t-squared/commit/0e54d299f1d136b9aa972242dcb81817454dff65))
 
 ## [0.6.0](https://github.com/seedcase-project/t-squared/compare/0.5.1..0.6.0) - 2026-05-19
 
