@@ -22,6 +22,12 @@ within each release.
 Commits from bots, like dependabot or pre-commit-ci, are not included in
 the changelog.
 
+## 0.6.0 (2026-05-19)
+
+### Feat
+
+- 👷 switch to using Cocogitto and git-cliff for releases (#23)
+
 ## [0.5.1](https://github.com/seedcase-project/t-squared/compare/0.5.0..0.5.1) - 2026-05-18
 
 ### ♻️ Refactor
