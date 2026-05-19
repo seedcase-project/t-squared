@@ -1,0 +1,16 @@
+from_latest_tag = true
+disable_changelog = true
+disable_bump_commit = true
+# branch_whitelist = ["main"]
+pre_bump_hooks = [
+  "uvx git-cliff --tag {{version}}",
+  "uvx rumdl fmt CHANGELOG.md",
+  "git commit CHANGELOG.md -m 'build: 🔖 update version to {{version}} [skip ci]'",
+]
+post_bump_hooks = ["git push", "git push {{version}}"]
+
+[commit_types]
+refactor = { bump_patch = true }
+perf = { bump_patch = true }
+fix = { bump_patch = true }
+feat = { bump_minor = true }
