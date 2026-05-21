@@ -22,6 +22,19 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.4](https://github.com/seedcase-project/t-squared/compare/0.7.3..0.7.4) - 2026-05-21
+
+### 🐛 Fixes
+
+- Fix some typos and incorrect paths in Next Steps guide
+  [#35](https://github.com/seedcase-project/t-squared/pull/35) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([4f9946b](https://github.com/seedcase-project/t-squared/commit/4f9946b2ffe3b765a70f13f8a7bec092eaa05036))
+- Should be called "project", not "website" in test script
+  [#36](https://github.com/seedcase-project/t-squared/pull/36) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([d2f7637](https://github.com/seedcase-project/t-squared/commit/d2f7637fb97a10672515770dc7e7158fd983806b))
+
 ## [0.7.3](https://github.com/seedcase-project/t-squared/compare/0.7.2..0.7.3) - 2026-05-21
 
 ### 🐛 Fixes
