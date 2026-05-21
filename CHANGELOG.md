@@ -22,6 +22,22 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) - 2026-05-21
+
+### 🐛 Fixes
+
+- Correct placement of minus in CONTRIBUTING
+  [#41](https://github.com/seedcase-project/t-squared/pull/41) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([f061065](https://github.com/seedcase-project/t-squared/commit/f061065e3ee26fa7b728342ed0616a80bf8f1f53))
+
+### 👩‍💻 Miscellaneous
+
+- Updates from template
+  [#40](https://github.com/seedcase-project/t-squared/pull/40) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([055f468](https://github.com/seedcase-project/t-squared/commit/055f468ce201363cfdbb0a426552c30c8d782d43))
+
 ## [0.7.4](https://github.com/seedcase-project/t-squared/compare/0.7.3..0.7.4) - 2026-05-21
 
 ### 🐛 Fixes
