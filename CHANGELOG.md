@@ -22,6 +22,33 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.3](https://github.com/seedcase-project/t-squared/compare/0.7.2..0.7.3) - 2026-05-21
+
+### 🐛 Fixes
+
+- Use correct placement of `-` in Jinja conditionals
+  [#39](https://github.com/seedcase-project/t-squared/pull/39) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([7e48be9](https://github.com/seedcase-project/t-squared/commit/7e48be9676ca7892cb9b368700b9cf81daae98e2))
+
+### ♻️ Refactor
+
+- Update explanation of files in CONTRIBUTING
+  [#38](https://github.com/seedcase-project/t-squared/pull/38) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([6225690](https://github.com/seedcase-project/t-squared/commit/6225690889ba42aad15ea0ecd98a82eaa14e491a))
+- Minor, mostly stylistic changes to Quarto config files
+  [#34](https://github.com/seedcase-project/t-squared/pull/34) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([be9e264](https://github.com/seedcase-project/t-squared/commit/be9e26426e10a59d205cb03d5ec632584b4142a6))
+
+### 📝 Documentation
+
+- Mention Cocogitto and git-cliff, not Commitizen
+  [#37](https://github.com/seedcase-project/t-squared/pull/37) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([78b8f31](https://github.com/seedcase-project/t-squared/commit/78b8f31467102c07b4b9086d06f5ee57b9cff0a9))
+
 ## [0.7.2](https://github.com/seedcase-project/t-squared/compare/0.7.1..0.7.2) - 2026-05-21
 
 ### ♻️ Refactor
