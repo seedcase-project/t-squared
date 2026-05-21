@@ -87,7 +87,7 @@ quick way of putting your project on GitHub, you can use the `gh`
 command line tool to upload the project to GitHub:
 
 ```{.bash filename="Terminal"}
-gh repo create {{ github_repo_spec }} --source=. --public`
+gh repo create ORG/REPO --source=. --public`
 ```
 :::
 
@@ -120,7 +120,7 @@ Ideally the secrets and variables should be set up in the organization
 settings. The specific workflows in this template that require this
 additional setup are:
 
-- The workflow `.github/workflows/release-package.yml` requires the
+- The workflow `.github/workflows/release.yml` requires the
   [auto-release-token](https://github.com/apps/auto-release-token)
   GitHub App, which is specific to the Seedcase Project, as well as a
   creating a GitHub secret called `UPDATE_VERSION_TOKEN` and a variable
