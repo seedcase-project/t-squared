@@ -1,6 +1,6 @@
 gh:
-  repo: t-squared
-  org: seedcase-project
+  org: "seedcase-project"
+  repo: "t-squared"
 
 tagline: "A template for creating other Copier templates"
 
