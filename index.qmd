@@ -23,10 +23,10 @@ created project:
 - Uses [typos](https://github.com/crate-ci/typos) to check for common
   spelling mistakes.
 - Uses
-  [Commitizen](https://decisions.seedcase-project.org/why-changelog-with-commitizen/)
+  [git-cliff](https://decisions.seedcase-project.org/why-changelog-with-git-cliff/)
   to automatically create the changelog.
 - Automates Git tagging and GitHub releases with
-  [commitizen](https://decisions.seedcase-project.org/why-semantic-release-with-commitizen/)
+  [Cocogitto](https://decisions.seedcase-project.org/why-semantic-release-with-cocogitto/)
   that are based on messages following
   [Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits/).
 - Uses a [MIT](https://decisions.seedcase-project.org/why-mit-license/)
