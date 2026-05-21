@@ -22,6 +22,15 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.2](https://github.com/seedcase-project/t-squared/compare/0.7.1..0.7.2) - 2026-05-21
+
+### ♻️ Refactor
+
+- Rename to `check` from `test` in checks workflow
+  [#33](https://github.com/seedcase-project/t-squared/pull/33) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([e247e18](https://github.com/seedcase-project/t-squared/commit/e247e18965c3cb8158a39d53306fe6acfe66268a))
+
 ## [0.7.1](https://github.com/seedcase-project/t-squared/compare/0.7.0..0.7.1) - 2026-05-21
 
 ### 🐛 Fixes
