@@ -10,7 +10,6 @@ website:
   title: "t-squared"
   site-url: "https://t-squared.seedcase-project.org"
   repo-url: "https://github.com/seedcase-project/t-squared"
-  favicon: "_extensions/seedcase-project/seedcase-theme/logos/seedcase/icon.svg"
   navbar:
     logo: "_extensions/seedcase-project/seedcase-theme/logos/seedcase/icon.svg"
     logo-alt: "Seedcase Project logo: Main page"
