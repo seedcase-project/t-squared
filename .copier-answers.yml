@@ -1,6 +1,6 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 0.6.0-4-g80716cc
-_src_path: .
+_commit: 0.7.4
+_src_path: gh:seedcase-project/t-squared
 for_seedcase: true
 github_repo: t-squared
 github_user: seedcase-project
