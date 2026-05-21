@@ -86,7 +86,8 @@ jobs:
           GH_TOKEN: {{ '${{ secrets.GITHUB_TOKEN }}' }}
         run: |
           version=$(cog get-version)
-          uvx git-cliff --latest --output RELEASE_NOTES.md --strip all
+          # Remove logging from git-cliff.
+          RUST_LOG='none' uvx git-cliff --latest --output RELEASE_NOTES.md --strip all
           gh release create "${version}" \
             --title "Release ${version}" \
             --notes-file RELEASE_NOTES.md
