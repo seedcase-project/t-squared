@@ -21,7 +21,7 @@ fi
 
 # Set up variables and functions for the test -----
 test_name="$NAME1-$NAME2"
-test_dir="$(pwd)/_temp/$NAME1/$test_name"
+test_dir="$(pwd)/_temp/auto/$test_name"
 template_dir="$(pwd)"
 
 # Needs three arguments:
@@ -63,10 +63,10 @@ echo "Testing copy for new projects when: 'NAME1'='$NAME1', 'NAME2'='$NAME2' ---
       -r HEAD \
       --defaults \
       --overwrite &&
-    # Check that copying onto an existing website works -----
+    # Check that copying onto an existing project works -----
     echo "Testing copy in existing projects when: 'NAME1'='$NAME1', 'NAME2'='$NAME2' -----------" &&
     rm .gitignore .copier-answers.yml &&
     git add . &&
-    git commit --quiet -m "test: preparing to copy onto an existing website" &&
+    git commit --quiet -m "test: preparing to copy onto an existing project" &&
     copy $template_dir $test_dir
 )
