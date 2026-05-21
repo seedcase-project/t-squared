@@ -22,6 +22,26 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.1](https://github.com/seedcase-project/t-squared/compare/0.7.0..0.7.1) - 2026-05-21
+
+### 🐛 Fixes
+
+- `--config` must come before `bump`
+  [#32](https://github.com/seedcase-project/t-squared/pull/32) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([3ae44e5](https://github.com/seedcase-project/t-squared/commit/3ae44e53b2f5d0d39aa2c5e957f456999d43ab82))
+
+### ♻️ Refactor
+
+- Moved config files into `.config/`
+  [#30](https://github.com/seedcase-project/t-squared/pull/30) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([da0ed5f](https://github.com/seedcase-project/t-squared/commit/da0ed5fcf01db6b21e88c783f8363af7e07865fa))
+- Quiet git-cliff in workflow
+  [#31](https://github.com/seedcase-project/t-squared/pull/31) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([0023b58](https://github.com/seedcase-project/t-squared/commit/0023b5886127c5ea1772c7b12732fd503cb8205a))
+
 ## [0.7.0](https://github.com/seedcase-project/t-squared/compare/0.6.2..0.7.0) - 2026-05-19
 
 ### ✨ Features
