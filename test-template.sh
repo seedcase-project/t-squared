@@ -58,10 +58,10 @@ echo "Testing copy for new projects when: 'for_seedcase'='$for_seedcase', 'hosti
       -r HEAD \
       --defaults \
       --overwrite &&
-    # Check that copying onto an existing website works -----
+    # Check that copying onto an existing project works -----
     echo "Testing copy in existing projects when: 'for_seedcase'='$for_seedcase', 'hosting_provider'='$hosting_provider' -----------" &&
     rm .gitignore .copier-answers.yml &&
     git add . &&
-    git commit --quiet -m "test: preparing to copy onto an existing website" &&
+    git commit --quiet -m "test: preparing to copy onto an existing project" &&
     copy $template_dir $test_dir
 )
