@@ -89,8 +89,8 @@ as well as explains a bit more about them and what they are used for.
     formatting Markdown files in the project.
   - `cog.toml`: [Cocogitto](https://docs.cocogitto.io) configuration
     file for managing versions.
-  - `cliff.toml`: [git-cliff](https://git-cliff.org) configuration
-    file for creating the changelog.
+  - `cliff.toml`: [git-cliff](https://git-cliff.org) configuration file
+    for creating the changelog.
 - `.typos.toml`: [typos](https://github.com/crate-ci/typos) spell
   checker configuration file.
 - `.editorconfig`: Editor configuration file for
