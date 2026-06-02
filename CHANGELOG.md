@@ -19,7 +19,16 @@ individual release will not have many changes within it. Below is a list of the
 releases we've made so far, along with what was changed within each release.
 
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
-changelog.
+changelog. ##
+[0.8.3](https://github.com/seedcase-project/t-squared/compare/0.8.2..0.8.3) -
+2026-06-02
+
+### ♻️ Refactor
+
+- Run Panache on CHANGELOG after bump
+  [#49](https://github.com/seedcase-project/t-squared/pull/49) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([094564f](https://github.com/seedcase-project/t-squared/commit/094564f5ea37716a7a5dc0fcfa43ef50b7db134a))
 
 ## [0.8.2](https://github.com/seedcase-project/t-squared/compare/0.8.1..0.8.2) - 2026-06-02
 
@@ -60,9 +69,9 @@ changelog.
 ### ❤️ New contributors
 
 - [`@DanMazJen`](https://github.com/DanMazJen) made their first contribution in
-  [#45](https://github.com/seedcase-project/t-squared/pull/45)
-
-## [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) - 2026-05-21
+  [#45](https://github.com/seedcase-project/t-squared/pull/45) ##
+  [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) -
+  2026-05-21
 
 ### 🐛 Fixes
 
@@ -460,5 +469,7 @@ changelog.
 ### ❤️ New contributors
 
 - `@github-actions[bot]` started making automated contributions
+
 - `@dependabot[bot]` started making automated contributions
+
 - [`@lwjohnst86`](https://github.com/lwjohnst86) made their first contribution
