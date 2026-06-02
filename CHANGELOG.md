@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.8.6](https://github.com/seedcase-project/t-squared/compare/0.8.5..0.8.6) - 2026-06-02
+
+### ♻️ Refactor
+
+- Use Panache for formatter in Markdown files in VS Code
+  [#52](https://github.com/seedcase-project/t-squared/pull/52) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([f8753e9](https://github.com/seedcase-project/t-squared/commit/f8753e9a0687a0ec2912b236a7b8829dc791049b))
+
 ## [0.8.5](https://github.com/seedcase-project/t-squared/compare/0.8.4..0.8.5) - 2026-06-02
 
 ### ♻️ Refactor
