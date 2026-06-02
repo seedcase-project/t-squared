@@ -17,7 +17,7 @@ repos:
     rev: v1.45.1
     hooks:
       - id: typos
-        args: []
+        args: [--config, .config/typos.toml, --force-exclude]
 
   - repo: https://github.com/jolars/panache-pre-commit
     rev: v2.51.0
