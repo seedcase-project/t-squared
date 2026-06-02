@@ -21,6 +21,29 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.8.7](https://github.com/seedcase-project/t-squared/compare/0.8.6..0.8.7) - 2026-06-02
+
+### 🐛 Fixes
+
+- Format `md` files too with Panache in VS Code
+  [#60](https://github.com/seedcase-project/t-squared/pull/60) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([11951fe](https://github.com/seedcase-project/t-squared/commit/11951fe23e05912ba53557a4388adaf6558f9381))
+
+### ♻️ Refactor
+
+- Update docs after changes to config files
+  [#58](https://github.com/seedcase-project/t-squared/pull/58) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([3da8f01](https://github.com/seedcase-project/t-squared/commit/3da8f01ee70d6df006f67e1b839538242ea937e7))
+
+### 📝 Documentation
+
+- Update contributors and WIP badge
+  [#59](https://github.com/seedcase-project/t-squared/pull/59) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([96d8360](https://github.com/seedcase-project/t-squared/commit/96d836078999163abb4bd77bcecbde57b19e139f))
+
 ## [0.8.6](https://github.com/seedcase-project/t-squared/compare/0.8.5..0.8.6) - 2026-06-02
 
 ### ♻️ Refactor
