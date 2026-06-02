@@ -6,10 +6,9 @@ title: "{{< meta gh.repo >}}: {{< meta tagline >}}"
 
 <!-- TODO: Fill in this description -->
 
-This is a template for creating a new repository for... Use this
-template to quickly get started with... as well as having the
-infrastructure configuration files to make developing and building...
-easier.
+This is a template for creating a new repository for... Use this template to
+quickly get started with... as well as having the infrastructure configuration
+files to make developing and building... easier.
 
 ## Features
 
@@ -17,9 +16,9 @@ easier.
 
 ## Want to contribute?
 
-We would love your feedback or contributions! Head over to our
-[GitHub repository]({{< meta links.github >}}) to share your ideas or
-contribute code. Your input makes us better!
+We would love your feedback or contributions! Head over to our [GitHub
+repository]({{< meta links.github >}}) to share your ideas or contribute code.
+Your input makes us better!
 
 ::: content-hidden
 ### Contributors

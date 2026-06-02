@@ -1,26 +1,25 @@
 # Changelog
 
-Since we follow
-[Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits/)
-when writing commit messages, we're able to automatically create formal
-"releases" of the template based on the commit messages. Releases in the
-context of template are when changes occur to the `template/` files or
-to the `copier.yaml` files. The releases are also published to Zenodo
-for easier discovery, archival, and citation purposes. We use
+Since we follow [Conventional
+Commits](https://decisions.seedcase-project.org/why-conventional-commits/) when
+writing commit messages, we're able to automatically create formal "releases" of
+the template based on the commit messages. Releases in the context of template
+are when changes occur to the `template/` files or to the `copier.yaml` files.
+The releases are also published to Zenodo for easier discovery, archival, and
+citation purposes. We use
 [Cocogitto](https://decisions.seedcase-project.org/why-semantic-release-with-cocogitto/)
 to be able to automatically create these releases, which uses
-[SemVar](https://semverdoc.org) as the version numbering scheme, and
-[Git Cliff](https://decisions.seedcase-project.org/why-changelog-with-git-cliff/)
-to generate the changelog based on the commit messages.
+[SemVar](https://semverdoc.org) as the version numbering scheme, and [Git
+Cliff](https://decisions.seedcase-project.org/why-changelog-with-git-cliff/) to
+generate the changelog based on the commit messages.
 
-Because releases are created based on commit messages, a new release is
-created quite often---sometimes several times in a day. This also means
-that any individual release will not have many changes within it. Below
-is a list of the releases we've made so far, along with what was changed
-within each release.
+Because releases are created based on commit messages, a new release is created
+quite often---sometimes several times in a day. This also means that any
+individual release will not have many changes within it. Below is a list of the
+releases we've made so far, along with what was changed within each release.
 
-Commits from bots, like `dependabot` or `pre-commit-ci`, are not
-included in the changelog.
+Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
+changelog.
 
 ## [0.7.6](https://github.com/seedcase-project/t-squared/compare/0.7.5..0.7.6) - 2026-06-02
 
@@ -33,8 +32,7 @@ included in the changelog.
 
 ### ❤️ New contributors
 
-- [`@DanMazJen`](https://github.com/DanMazJen) made their first
-  contribution in
+- [`@DanMazJen`](https://github.com/DanMazJen) made their first contribution in
   [#45](https://github.com/seedcase-project/t-squared/pull/45)
 
 ## [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) - 2026-05-21
@@ -203,8 +201,8 @@ included in the changelog.
 
 ### 🐛 Fixes
 
-- `_badges.qmd` has many Quarto shortcodes, so don't use it as Jinja
-  file [#9](https://github.com/seedcase-project/t-squared/pull/9) by
+- `_badges.qmd` has many Quarto shortcodes, so don't use it as Jinja file
+  [#9](https://github.com/seedcase-project/t-squared/pull/9) by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([c228754](https://github.com/seedcase-project/t-squared/commit/c2287549badd544233e58974880a181cc0479a0e))
 - Attach commitizen changelog to GitHub release
@@ -262,8 +260,7 @@ included in the changelog.
 - Also run Markdown formatter on Jinja files by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([ee3b0aa](https://github.com/seedcase-project/t-squared/commit/ee3b0aa04ab7acfa3c2226fd8caa6e17b798a959))
-- Format Markdown files by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Format Markdown files by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([a04a8bd](https://github.com/seedcase-project/t-squared/commit/a04a8bd7e7f518f07c87e3126ba5345773660d1a))
 - Delete previous manual test folder by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
@@ -277,8 +274,7 @@ included in the changelog.
 - Add DOI badge after publishing to Zenodo by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([d4e45b4](https://github.com/seedcase-project/t-squared/commit/d4e45b485f695e88f92fb0d78005f748bdb296b2))
-- Add DOI to `CITATION.cff` by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add DOI to `CITATION.cff` by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([bd410ed](https://github.com/seedcase-project/t-squared/commit/bd410ed7b84c000d1db7e69d4d9a1e2e4d820ebe))
 - Rebuild README by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([f00bae8](https://github.com/seedcase-project/t-squared/commit/f00bae8f4d572407c42cdc7dab3cb7d4ea6de6aa))
@@ -323,8 +319,7 @@ included in the changelog.
 
 ### ✨ Features
 
-- Start of t-squared template by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Start of t-squared template by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([a3fdcfd](https://github.com/seedcase-project/t-squared/commit/a3fdcfd02ca8888794db95b7c6070cd4275b8ed5))
 - VS Code settings for consistent DevEx by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
@@ -332,16 +327,13 @@ included in the changelog.
 - Index landing page for Quarto website by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([543f0c6](https://github.com/seedcase-project/t-squared/commit/543f0c64127f6d9253af227671a4ba219c0f72b6))
-- Add community health files by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add community health files by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([3d1516a](https://github.com/seedcase-project/t-squared/commit/3d1516a441deb731da029c0776791f73c30d0397))
-- Add DevEx files and settings by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add DevEx files and settings by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([664956a](https://github.com/seedcase-project/t-squared/commit/664956a827f1cc6c0db3027f083121916aff0ff0))
 - Add MIT License file by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([84d4974](https://github.com/seedcase-project/t-squared/commit/84d49747654973582a1f74b19d16b69b81f09256))
-- Add GitHub CI/CD workflows by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add GitHub CI/CD workflows by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([183350e](https://github.com/seedcase-project/t-squared/commit/183350e72e90fb2885c907cd271bcbb470c46e9a))
 - Add TODO file for post-creation steps by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
@@ -349,8 +341,7 @@ included in the changelog.
 - Add auto-release files and changelog files by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([2e8f669](https://github.com/seedcase-project/t-squared/commit/2e8f669d3cb8bb73884d83d27d6f86880d8e9c1f))
-- Add Quarto config files by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add Quarto config files by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([20267ae](https://github.com/seedcase-project/t-squared/commit/20267ae17fd292f180f56a0494a7ec0c079c7964))
 - Add 404 page for the websites by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
@@ -364,8 +355,7 @@ included in the changelog.
 - Add justfile with build recipes by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([1abc1c9](https://github.com/seedcase-project/t-squared/commit/1abc1c9211bd51d5cc8153d1b23ec1236fa38b5d))
-- Add CITATION.cff file by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add CITATION.cff file by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([4151c5a](https://github.com/seedcase-project/t-squared/commit/4151c5a8fea42bc851b62595890aac512ba5ba8f))
 - Add guide docs by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([ff95207](https://github.com/seedcase-project/t-squared/commit/ff95207859e5ff46735dd23c0ff439c19584045b))
@@ -411,14 +401,12 @@ included in the changelog.
 - Don't search `copier.yaml` for TODO items by
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([dabf81b](https://github.com/seedcase-project/t-squared/commit/dabf81be6409efc79f562567c9b54e73fe54cdd0))
-- Update pre-commit versions by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Update pre-commit versions by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([8287917](https://github.com/seedcase-project/t-squared/commit/82879178a6b8169093f609cfae9dcbbe3c6bcd57))
 
 ### 📝 Documentation
 
-- Generated the README file by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Generated the README file by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([566cf5b](https://github.com/seedcase-project/t-squared/commit/566cf5b12f3742ea019bd7a9cc0a861e82c15cd6))
 
 ### 💄 Styling
@@ -427,28 +415,23 @@ included in the changelog.
   ([699516f](https://github.com/seedcase-project/t-squared/commit/699516f014b2ad76cc840815811ecd2fdca0ab15))
 - Ran pre-commit hooks by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([9e39cfd](https://github.com/seedcase-project/t-squared/commit/9e39cfd79bd2aee172dca4562f0da55ec04087f7))
-- Ran Markdown formatter by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Ran Markdown formatter by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([70cf518](https://github.com/seedcase-project/t-squared/commit/70cf518ec6b948e80aa7163547594408894a4410))
 
 ### 🧪 Tests
 
-- Fill in test script values by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Fill in test script values by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([bb054bb](https://github.com/seedcase-project/t-squared/commit/bb054bbb90f3d7d359c2a255350404833cda2977))
 
 ### 👩‍💻 Miscellaneous
 
-- Add `CITATION.cff` file by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add `CITATION.cff` file by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([d770ecd](https://github.com/seedcase-project/t-squared/commit/d770ecdae1402e9c1bdfe4a026bf086dc442417e))
-- T-squared creating itself by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- T-squared creating itself by [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([f237355](https://github.com/seedcase-project/t-squared/commit/f2373552a589d8d5cacabee4656a583cb4b6d7c8))
 
 ### ❤️ New contributors
 
 - `@github-actions[bot]` started making automated contributions
 - `@dependabot[bot]` started making automated contributions
-- [`@lwjohnst86`](https://github.com/lwjohnst86) made their first
-  contribution
+- [`@lwjohnst86`](https://github.com/lwjohnst86) made their first contribution
