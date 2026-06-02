@@ -22,6 +22,21 @@ within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not
 included in the changelog.
 
+## [0.7.6](https://github.com/seedcase-project/t-squared/compare/0.7.5..0.7.6) - 2026-06-02
+
+### 🐛 Fixes
+
+- Windows compatible file names
+  [#45](https://github.com/seedcase-project/t-squared/pull/45) by
+  [`@DanMazJen`](https://github.com/DanMazJen)
+  ([b3e6128](https://github.com/seedcase-project/t-squared/commit/b3e612809def9f0552335b9e8d39cbf278a52b06))
+
+### ❤️ New contributors
+
+- [`@DanMazJen`](https://github.com/DanMazJen) made their first
+  contribution in
+  [#45](https://github.com/seedcase-project/t-squared/pull/45)
+
 ## [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) - 2026-05-21
 
 ### 🐛 Fixes
