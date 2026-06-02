@@ -60,7 +60,7 @@ updated.
 Then to use the theme, you need to update the `_quarto.yml` file by adding the
 following lines to the `project` and `format` sections:
 
-```yaml
+```yaml {filename="_quarto.yml"}
 project:
   type: seedcase-theme
 
