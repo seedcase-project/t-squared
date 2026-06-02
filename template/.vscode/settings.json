@@ -15,7 +15,7 @@
     "perf"
   ],
   "conventional-branch.format": "{Type}/{Branch}",
-  "[quarto][qmd][jinja]": {
+  "[quarto][qmd][md][jinja]": {
     "editor.defaultFormatter": "jolars.panache"
   },
   "files.associations": {
