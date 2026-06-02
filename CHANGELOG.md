@@ -1,17 +1,17 @@
 # Changelog
 
-Since we follow [Conventional
-Commits](https://decisions.seedcase-project.org/why-conventional-commits/) when
-writing commit messages, we're able to automatically create formal "releases" of
-the template based on the commit messages. Releases in the context of template
-are when changes occur to the `template/` files or to the `copier.yaml` files.
-The releases are also published to Zenodo for easier discovery, archival, and
-citation purposes. We use
+Since we follow
+[Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits/)
+when writing commit messages, we're able to automatically create formal
+"releases" of the template based on the commit messages. Releases in the context
+of template are when changes occur to the `template/` files or to the
+`copier.yaml` files. The releases are also published to Zenodo for easier
+discovery, archival, and citation purposes. We use
 [Cocogitto](https://decisions.seedcase-project.org/why-semantic-release-with-cocogitto/)
 to be able to automatically create these releases, which uses
-[SemVar](https://semverdoc.org) as the version numbering scheme, and [Git
-Cliff](https://decisions.seedcase-project.org/why-changelog-with-git-cliff/) to
-generate the changelog based on the commit messages.
+[SemVar](https://semverdoc.org) as the version numbering scheme, and
+[Git Cliff](https://decisions.seedcase-project.org/why-changelog-with-git-cliff/)
+to generate the changelog based on the commit messages.
 
 Because releases are created based on commit messages, a new release is created
 quite often---sometimes several times in a day. This also means that any
@@ -20,6 +20,15 @@ releases we've made so far, along with what was changed within each release.
 
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
+
+## [0.8.0](https://github.com/seedcase-project/t-squared/compare/0.7.6..0.8.0) - 2026-06-02
+
+### ✨ Features
+
+- Add Panache Quarto formatter
+  [#46](https://github.com/seedcase-project/t-squared/pull/46) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([7d37e46](https://github.com/seedcase-project/t-squared/commit/7d37e4624ace75de4c3ecbd337095b8a9dbc9cb6))
 
 ## [0.7.6](https://github.com/seedcase-project/t-squared/compare/0.7.5..0.7.6) - 2026-06-02
 
