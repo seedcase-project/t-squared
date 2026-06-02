@@ -4,6 +4,15 @@
 # Run all build-related recipes in the justfile
 run-all: update-quarto-theme check-all format-md test-all build-all
 
+# Run all check-related recipes
+check-all: check-spelling check-urls
+
+# Run all test-related recipes
+test-all: (test "true" "netlify") (test "true" "gh-pages") (test "false" "netlify") (test "false" "gh-pages")
+
+# Run all build-related recipes
+build-all: build-contributors build-website build-readme
+
 # List all TODO items in the repository
 list-todos:
   grep -R -n \
@@ -36,9 +45,6 @@ check-urls:
     --extensions md,qmd,jinja \
     --exclude-path "_badges.qmd"
 
-# Run all check-related recipes
-check-all: check-spelling check-urls
-
 # Format Markdown files
 format-md:
   # Use both rumdl and panache, for different purposes
@@ -56,9 +62,6 @@ test-manual:
   mkdir -p _temp/manual
   rm -rf _temp/manual/test-template
   uvx copier copy -r HEAD . _temp/manual/test-template
-
-# Run all test-related recipes
-test-all: (test "true" "netlify") (test "true" "gh-pages") (test "false" "netlify") (test "false" "gh-pages")
 
 # Clean up any leftover and temporary build files
 cleanup:
@@ -79,9 +82,6 @@ build-website:
 # Preview the website with automatic reload on changes
 preview-website:
   quarto preview
-
-# Run all build-related recipes
-build-all: build-contributors build-website build-readme
 
 # Check for and apply updates from the template
 update-from-template:
