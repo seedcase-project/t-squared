@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.8.5](https://github.com/seedcase-project/t-squared/compare/0.8.4..0.8.5) - 2026-06-02
+
+### ♻️ Refactor
+
+- Move `.typos.toml` into `.config/` (again)
+  [#51](https://github.com/seedcase-project/t-squared/pull/51) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([22f0a03](https://github.com/seedcase-project/t-squared/commit/22f0a03501a26ed0508a7400a48da7ea41aba339))
+
 ## [0.8.4](https://github.com/seedcase-project/t-squared/compare/0.8.3..0.8.4) - 2026-06-02
 
 ### 🐛 Fixes
