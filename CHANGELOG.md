@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.8.1](https://github.com/seedcase-project/t-squared/compare/0.8.0..0.8.1) - 2026-06-02
+
+### ♻️ Refactor
+
+- Move all `-all` recipes to top to find easily
+  [#47](https://github.com/seedcase-project/t-squared/pull/47) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([ddb51c0](https://github.com/seedcase-project/t-squared/commit/ddb51c0c4960040552930998fe5f9baf24031076))
+
 ## [0.8.0](https://github.com/seedcase-project/t-squared/compare/0.7.6..0.8.0) - 2026-06-02
 
 ### ✨ Features
