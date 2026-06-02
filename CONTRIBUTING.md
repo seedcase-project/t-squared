@@ -81,14 +81,15 @@ as explains a bit more about them and what they are used for.
   file for managing and running checks before each commit.
 - `.config/`: Contains configuration files for various tools used in the
   project, such as:
-  - `rumdl.toml`: [rumdl](https://rumdl.dev) configuration file for formatting
-    Markdown files in the project.
+  - `typos.toml`: [typos](https://github.com/crate-ci/typos) spell checker
+    configuration file.
+  - `rumdl.toml` and `panache.toml`: [rumdl](https://rumdl.dev) and
+    [Panache](https://panache.bz) configuration files for formatting Markdown
+    files in the project.
   - `cog.toml`: [Cocogitto](https://docs.cocogitto.io) configuration file for
     managing versions.
   - `cliff.toml`: [git-cliff](https://git-cliff.org) configuration file for
     creating the changelog.
-- `.typos.toml`: [typos](https://github.com/crate-ci/typos) spell checker
-  configuration file.
 - `.editorconfig`: Editor configuration file for
   [EditorConfig](https://editorconfig.org/) to maintain consistent coding styles
   across different editors and IDEs.
