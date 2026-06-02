@@ -19,9 +19,9 @@ individual release will not have many changes within it. Below is a list of the
 releases we've made so far, along with what was changed within each release.
 
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
-changelog. ##
-[0.8.3](https://github.com/seedcase-project/t-squared/compare/0.8.2..0.8.3) -
-2026-06-02
+changelog.
+
+## [0.8.3](https://github.com/seedcase-project/t-squared/compare/0.8.2..0.8.3) - 2026-06-02
 
 ### ♻️ Refactor
 
