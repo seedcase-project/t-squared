@@ -36,7 +36,7 @@ update-quarto-theme:
 
 # Check for spelling errors in files
 check-spelling:
-  uvx typos
+  uvx typos --config .config/typos.toml
 
 # Check that URLs work
 check-urls:
