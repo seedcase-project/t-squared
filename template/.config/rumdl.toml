@@ -1,6 +1,4 @@
 [global]
-# 72 to match what we have currently been using
-line_length = 72
 flavor = "quarto"
 exclude = [
   # Common directories to exclude

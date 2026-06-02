@@ -41,9 +41,11 @@ check-all: check-spelling check-urls
 
 # Format Markdown files
 format-md:
+  # Use both rumdl and panache, for different purposes
   uvx rumdl fmt --silent
-  # includes option doesn't work with Jinja files, so do manually
+  # `includes` option doesn't work with Jinja files, so do manually
   uvx rumdl fmt --silent **/*.qmd.jinja **/*.md.jinja
+  uvx --from panache-cli panache format . --quiet
 
 # Test template creation with specific parameters: `for_seedcase` and `hosting_provider`
 test for_seedcase="true" hosting_provider="netlify":
