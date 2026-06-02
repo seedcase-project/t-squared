@@ -16,7 +16,7 @@
   ],
   "conventional-branch.format": "{Type}/{Branch}",
   "[quarto][qmd][jinja]": {
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "jolars.panache"
   },
   "files.associations": {
     "justfile.jinja": "plaintext",
