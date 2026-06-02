@@ -61,8 +61,11 @@ questions, some of these features may not be included in the created project:
 - Includes a [GoatCounter](https://www.goatcounter.com/) file for website
   visitor tracking, which is privacy-friendly and does not use cookies. That
   means it doesn't need a GDPR notice as no personal data is collected.
-- Uses [rumdl](https://rumdl.dev) to format Markdown files, so that they are
-  consistent across the repository and easier to read in the raw form.
+- Uses [rumdl](https://rumdl.dev) and [Panache](https://panache.bz) to format
+  Markdown files, so that they are consistent across the repository and easier
+  to read in the raw form. We use two because they both do slightly different
+  things for Quarto Markdown files. Rumdl is better at linting, while Panache is
+  better at formatting.
 - Uses [lychee](https://lychee.cli.rs) to check for broken links in the website
   files.
 
