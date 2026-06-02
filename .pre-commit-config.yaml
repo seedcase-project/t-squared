@@ -27,6 +27,7 @@ repos:
     rev: v1.47.0
     hooks:
       - id: typos
+        args: []
 
   - repo: https://github.com/jolars/panache
     rev: v2.41.0
