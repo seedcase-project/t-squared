@@ -4,10 +4,11 @@ title: "{{< meta gh.repo >}}: {{< meta tagline >}}"
 
 {{< include /docs/includes/_badges.qmd >}}
 
-This is a template for creating a new repository for building Quarto-based
-websites. Use this template to quickly get started with making a website as well
-as having infrastructure configuration to make developing and building the
-website easier.
+This is a [Copier](https://copier.readthedocs.io/en/stable/) template for
+creating a new Copier template. We made {{< meta gh.repo >}} (a template for
+templates) because we manage and develop several templates in Seedcase, and this
+template is designed to make it easier to create, develop, and maintain those
+templates.
 
 ## Features
 
