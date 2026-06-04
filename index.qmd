@@ -27,8 +27,8 @@ questions, some of these features may not be included in the created project:
   to automatically create the changelog.
 - Automates Git tagging and GitHub releases with
   [Cocogitto](https://decisions.seedcase-project.org/why-semantic-release-with-cocogitto/)
-  that are based on messages following
-  [Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits/).
+  that are based on messages following [Conventional
+  Commits](https://decisions.seedcase-project.org/why-conventional-commits/).
 - Uses a [MIT](https://decisions.seedcase-project.org/why-mit-license/) license
   for the template.
 - Run checks with [pre-commit](https://pre-commit.com/) hooks to ensure
@@ -42,10 +42,10 @@ questions, some of these features may not be included in the created project:
   and building the website. It also includes
   [Dependabot](https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart-guide)
   for keeping GitHub Action dependencies up to date.
-- Options between [Netlify](https://www.netlify.com/) or
-  [GitHub Pages](https://pages.github.com/) for hosting the website. For dealing
-  with custom domain names, Netlify is the better choice, as the configuration
-  is very easy to set up.
+- Options between [Netlify](https://www.netlify.com/) or [GitHub
+  Pages](https://pages.github.com/) for hosting the website. For dealing with
+  custom domain names, Netlify is the better choice, as the configuration is
+  very easy to set up.
 - Includes an [EditorConfig](https://editorconfig.org/) file to ensure
   consistent formatting across different editors.
 - High level, system and program management with
@@ -72,9 +72,9 @@ questions, some of these features may not be included in the created project:
 
 ## Want to contribute?
 
-We would love your feedback or contributions! Head over to our
-[GitHub repository]({{< meta links.github >}}) to share your ideas or contribute
-code. Your input makes us better!
+We would love your feedback or contributions! Head over to our [GitHub
+repository]({{< meta links.github >}}) to share your ideas or contribute code.
+Your input makes us better!
 
 ### Contributors
 
