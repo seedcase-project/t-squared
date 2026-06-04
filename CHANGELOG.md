@@ -40,9 +40,9 @@ changelog.
 ### ❤️ New contributors
 
 - [`@signekb`](https://github.com/signekb) made their first contribution in
-  [#61](https://github.com/seedcase-project/t-squared/pull/61) ##
-  [0.8.7](https://github.com/seedcase-project/t-squared/compare/0.8.6..0.8.7) -
-  2026-06-02
+  [#61](https://github.com/seedcase-project/t-squared/pull/61)
+
+## [0.8.7](https://github.com/seedcase-project/t-squared/compare/0.8.6..0.8.7) - 2026-06-02
 
 ### 🐛 Fixes
 
@@ -140,9 +140,9 @@ changelog.
 ### ❤️ New contributors
 
 - [`@DanMazJen`](https://github.com/DanMazJen) made their first contribution in
-  [#45](https://github.com/seedcase-project/t-squared/pull/45) ##
-  [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) -
-  2026-05-21
+  [#45](https://github.com/seedcase-project/t-squared/pull/45)
+
+## [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) - 2026-05-21
 
 ### 🐛 Fixes
 
@@ -540,7 +540,5 @@ changelog.
 ### ❤️ New contributors
 
 - `@github-actions[bot]` started making automated contributions
-
 - `@dependabot[bot]` started making automated contributions
-
 - [`@lwjohnst86`](https://github.com/lwjohnst86) made their first contribution
