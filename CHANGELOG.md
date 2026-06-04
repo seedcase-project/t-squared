@@ -21,7 +21,28 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
-## [0.8.7](https://github.com/seedcase-project/t-squared/compare/0.8.6..0.8.7) - 2026-06-02
+## [0.8.8](https://github.com/seedcase-project/t-squared/compare/0.8.7..0.8.8) - 2026-06-04
+
+### ♻️ Refactor
+
+- Match name of job to name of workflow file
+  [#67](https://github.com/seedcase-project/t-squared/pull/67) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([d340705](https://github.com/seedcase-project/t-squared/commit/d34070575f6c90d2ad998d372db82718b842db64))
+
+### 📝 Documentation
+
+- Change intro on landing page
+  [#61](https://github.com/seedcase-project/t-squared/pull/61) by
+  [`@signekb`](https://github.com/signekb)
+  ([53661bb](https://github.com/seedcase-project/t-squared/commit/53661bb095cde7501d6d0db47f5fe605136fcc71))
+
+### ❤️ New contributors
+
+- [`@signekb`](https://github.com/signekb) made their first contribution in
+  [#61](https://github.com/seedcase-project/t-squared/pull/61) ##
+  [0.8.7](https://github.com/seedcase-project/t-squared/compare/0.8.6..0.8.7) -
+  2026-06-02
 
 ### 🐛 Fixes
 
