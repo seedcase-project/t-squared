@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.8.9](https://github.com/seedcase-project/t-squared/compare/0.8.8..0.8.9) - 2026-06-04
+
+### 🐛 Fixes
+
+- Correct spacing in CHANGELOG generation
+  [#68](https://github.com/seedcase-project/t-squared/pull/68) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([cf2c14d](https://github.com/seedcase-project/t-squared/commit/cf2c14d9962b37ec8f22e6a3babf0bed5c1af1bc))
+
 ## [0.8.8](https://github.com/seedcase-project/t-squared/compare/0.8.7..0.8.8) - 2026-06-04
 
 ### ♻️ Refactor
