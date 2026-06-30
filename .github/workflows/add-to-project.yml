@@ -36,9 +36,7 @@ jobs:
       - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: app-token
         with:
-          # TODO: Make sure that the repo has this variable set up.
           client-id: ${{ vars.ADD_TO_BOARD_APP_ID }}
-          # TODO: Confirm that this secret is set up for this repo.
           private-key: ${{ secrets.ADD_TO_BOARD }}
 
       - name: Add issue or PR to project board
