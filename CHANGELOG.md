@@ -21,6 +21,59 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.9.0](https://github.com/seedcase-project/t-squared/compare/0.8.10..0.9.0) - 2026-06-30
+
+### ✨ Features
+
+- Include release workflows in non-Seedcase templates
+  [#75](https://github.com/seedcase-project/t-squared/pull/75) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([5b8db7f](https://github.com/seedcase-project/t-squared/commit/5b8db7fad97e99cbc6e97114e5358ec8f09027f2))
+
+### 🐛 Fixes
+
+- Don't check GitHub links, it requires authorisation token
+  [#79](https://github.com/seedcase-project/t-squared/pull/79) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([69748a6](https://github.com/seedcase-project/t-squared/commit/69748a6fdb098db8b7edfe147d6a0f24c4b6613a))
+- Add path to typos config in VS Code settings
+  [#74](https://github.com/seedcase-project/t-squared/pull/74) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([10c84db](https://github.com/seedcase-project/t-squared/commit/10c84db0a8485e9118fb36216c9839054a03b443))
+- Fix some minor grammar and doc issues
+  [#82](https://github.com/seedcase-project/t-squared/pull/82) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([6ca3a02](https://github.com/seedcase-project/t-squared/commit/6ca3a02b314ce9b6f68e6103044f311324aa4ee1))
+- Match max line length with formatter settings
+  [#78](https://github.com/seedcase-project/t-squared/pull/78) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([de9a9be](https://github.com/seedcase-project/t-squared/commit/de9a9be01ea4cca124a215d06c96a96a1f280b55))
+- Ignore formatting `_badges.qmd` as it gets mangled
+  [#76](https://github.com/seedcase-project/t-squared/pull/76) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([9f4d144](https://github.com/seedcase-project/t-squared/commit/9f4d144c4c6fe949c0eccc7fe147aaea1f30f675))
+
+### ♻️ Refactor
+
+- Match using `uvx` for Quarto like the other recipes
+  [#81](https://github.com/seedcase-project/t-squared/pull/81) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([083f5cd](https://github.com/seedcase-project/t-squared/commit/083f5cdb54292ef55edecc36eaaf9a3248612b83))
+
+### 💄 Styling
+
+- Update Quarto theme
+  [#80](https://github.com/seedcase-project/t-squared/pull/80) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([82c535c](https://github.com/seedcase-project/t-squared/commit/82c535c8c234548142ac42e6034675f41920f81b))
+
+### 👩‍💻 Miscellaneous
+
+- Fix minor things from running justfile
+  [#77](https://github.com/seedcase-project/t-squared/pull/77) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([620cfc2](https://github.com/seedcase-project/t-squared/commit/620cfc266224b52889b596985082ba34edf2e7d3))
+
 ## [0.8.10](https://github.com/seedcase-project/t-squared/compare/0.8.9..0.8.10) - 2026-06-05
 
 ### 🐛 Fixes
