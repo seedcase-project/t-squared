@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.0](https://github.com/seedcase-project/t-squared/compare/0.9.0..0.10.0) - 2026-08-03
+
+### ✨ Features
+
+- Use Seedcase badge in navbar instead of house icon
+  [#89](https://github.com/seedcase-project/t-squared/pull/89) by
+  [`@signekb`](https://github.com/signekb)
+  ([613cee8](https://github.com/seedcase-project/t-squared/commit/613cee8676456e622e7e476a6c545c5c2b374815))
+
 ## [0.9.0](https://github.com/seedcase-project/t-squared/compare/0.8.10..0.9.0) - 2026-06-30
 
 ### ✨ Features
