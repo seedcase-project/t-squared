@@ -1,5 +1,5 @@
-- Review the
-  [template guide](https://t-squared.seedcase-project.org/docs/guide/) for more
+- Review the [template
+  guide](https://t-squared.seedcase-project.org/docs/guide/) for more
   information on how to use the template and the next steps after copying the
   project.
 - Run `git init -b main` to create the project as a Git repository.
