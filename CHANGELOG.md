@@ -21,6 +21,19 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.1](https://github.com/seedcase-project/t-squared/compare/0.10.0..0.10.1) - 2026-08-12
+
+### ♻️ Refactor
+
+- Include Jinja files when formatting Markdown
+  [#95](https://github.com/seedcase-project/t-squared/pull/95) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([ef23ead](https://github.com/seedcase-project/t-squared/commit/ef23ead625b033d7e4bc0078528689676a742508))
+- Search in all files (hidden as well) for TODO items
+  [#96](https://github.com/seedcase-project/t-squared/pull/96) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([c0f583f](https://github.com/seedcase-project/t-squared/commit/c0f583ff2fef8590cad56ff24147e4ecf0b7645c))
+
 ## [0.10.0](https://github.com/seedcase-project/t-squared/compare/0.9.0..0.10.0) - 2026-08-03
 
 ### ✨ Features
