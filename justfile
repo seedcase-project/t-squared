@@ -24,6 +24,7 @@ list-todos:
   --exclude-dir=_temp \
   --exclude-dir=template \
   --exclude=copier.yaml \
+  --exclude=json.code-snippets \
   --exclude=justfile \
   "TODO" .
 
