@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.2](https://github.com/seedcase-project/t-squared/compare/0.10.1..0.10.2) - 2026-08-17
+
+### 🐛 Fixes
+
+- Exclude `.venv/` and `json.code-snippets` from TODO listing
+  [#97](https://github.com/seedcase-project/t-squared/pull/97) by
+  [`@signekb`](https://github.com/signekb)
+  ([d19aff6](https://github.com/seedcase-project/t-squared/commit/d19aff674dcddbff1ceae661736a2953c7249756))
+
 ## [0.10.1](https://github.com/seedcase-project/t-squared/compare/0.10.0..0.10.1) - 2026-08-12
 
 ### ♻️ Refactor
