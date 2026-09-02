@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.3](https://github.com/seedcase-project/t-squared/compare/0.10.2..0.10.3) - 2026-09-02
+
+### 🐛 Fixes
+
+- Remove link Markdown for first release in git-cliff
+  [#104](https://github.com/seedcase-project/t-squared/pull/104) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([7903c1f](https://github.com/seedcase-project/t-squared/commit/7903c1f4feed6918595ff6a412ee6b0237d7b6ce))
+
 ## [0.10.2](https://github.com/seedcase-project/t-squared/compare/0.10.1..0.10.2) - 2026-08-17
 
 ### 🐛 Fixes
@@ -524,7 +533,7 @@ changelog.
   [`@lwjohnst86`](https://github.com/lwjohnst86)
   ([38b3cd4](https://github.com/seedcase-project/t-squared/commit/38b3cd4a54c8c771834731276d8f7074e6736d11))
 
-## [0.2.0] - 2026-04-24
+## 0.2.0 - 2026-04-24
 
 ### ✨ Features
 
