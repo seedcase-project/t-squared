@@ -20,7 +20,7 @@ and this template is designed to make it easier to create, develop, and maintain
 those PROJECTS.
 
 Check out our [website]({{< meta links.site >}}) for more information, such as
-the features it provides and a [guide]({{< meta links.site >}}/docs/guide) to
+the features it provides and a [guide]({{< meta links.site >}}/docs/guide/) to
 using the template. For a list of changes, see our [changelog](CHANGELOG.md)
 page.
 
