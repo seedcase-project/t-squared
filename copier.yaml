@@ -4,7 +4,7 @@ _subdirectory: "template"
 _message_after_copy: |
 
   Your project "{{ github_repo }}" has been created successfully!  See the
-  [guide](https://t-squared.seedcase-project.org/docs/guide) as well as the
+  [guide](https://t-squared.seedcase-project.org/docs/guide/) as well as the
   "TODO.md" file in the newly created project for more details on the next
   steps.
 

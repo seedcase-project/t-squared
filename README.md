@@ -28,7 +28,7 @@ develop, and maintain those templates.
 
 Check out our [website](https://seedcase-t-squared.netlify.app) for more
 information, such as the features it provides and a
-[guide](https://seedcase-t-squared.netlify.app/docs/guide) to using the
+[guide](https://seedcase-t-squared.netlify.app/docs/guide/) to using the
 template. For a list of changes, see our [changelog](CHANGELOG.md) page.
 
 > [!TIP]
