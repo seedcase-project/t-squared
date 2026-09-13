@@ -21,6 +21,22 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.5](https://github.com/seedcase-project/t-squared/compare/0.10.4..0.10.5) - 2026-09-13
+
+### ♻️ Refactor
+
+- Improve explanation and details in using and next steps
+  [#115](https://github.com/seedcase-project/t-squared/pull/115) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([613f773](https://github.com/seedcase-project/t-squared/commit/613f773a5dd34012d6a9fd8cac52ca2f3fa4cce6))
+
+### 💄 Styling
+
+- Reformat Markdown
+  [#114](https://github.com/seedcase-project/t-squared/pull/114) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([16a3289](https://github.com/seedcase-project/t-squared/commit/16a3289280161b9e52efff3089e91ec3b609199a))
+
 ## [0.10.4](https://github.com/seedcase-project/t-squared/compare/0.10.3..0.10.4) - 2026-09-13
 
 ### 🐛 Fixes
