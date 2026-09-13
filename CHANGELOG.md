@@ -21,6 +21,48 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.4](https://github.com/seedcase-project/t-squared/compare/0.10.3..0.10.4) - 2026-09-13
+
+### 🐛 Fixes
+
+- Ignore `CHANGELOG.md` for typos, rumdl checks/fixes
+  [#108](https://github.com/seedcase-project/t-squared/pull/108) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([51c8dcc](https://github.com/seedcase-project/t-squared/commit/51c8dccaad38361ebf684f0ca7f38ec44a9d3206))
+
+### ♻️ Refactor
+
+- Improve the install instructions
+  [#107](https://github.com/seedcase-project/t-squared/pull/107) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([116015a](https://github.com/seedcase-project/t-squared/commit/116015a02e9fe625b7d0dc5c9daea964dca7282f))
+- Use Lychee config file for config settings
+  [#109](https://github.com/seedcase-project/t-squared/pull/109) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([c913592](https://github.com/seedcase-project/t-squared/commit/c9135922f26fc9960e75c300a344db470071e0e5))
+- Move next steps guide to after using guide
+  [#110](https://github.com/seedcase-project/t-squared/pull/110) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([6155001](https://github.com/seedcase-project/t-squared/commit/61550012f98cc05329c60bd39a4c09f7d37c0baa))
+- Improve structure and explanation of `TODO.md`
+  [#111](https://github.com/seedcase-project/t-squared/pull/111) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([e822492](https://github.com/seedcase-project/t-squared/commit/e8224921b1d3a606f3493ee36b7a81279a607022))
+
+### 📝 Documentation
+
+- Fix ordering of guide pages
+  [#113](https://github.com/seedcase-project/t-squared/pull/113) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([02bde15](https://github.com/seedcase-project/t-squared/commit/02bde154aa82ea564079a0e6c3814b2e475ec035))
+
+### 💄 Styling
+
+- Resolve URLs to not redirect (informed by Lychee)
+  [#112](https://github.com/seedcase-project/t-squared/pull/112) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([b6eaae0](https://github.com/seedcase-project/t-squared/commit/b6eaae0c4971c13159922c1e9bb96c0ff05b07f6))
+
 ## [0.10.3](https://github.com/seedcase-project/t-squared/compare/0.10.2..0.10.3) - 2026-09-02
 
 ### 🐛 Fixes
