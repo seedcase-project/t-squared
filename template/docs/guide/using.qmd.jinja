@@ -1,51 +1,66 @@
 ---
 title: "Using the template"
 description: |
-  A walk-through on how to use this template for creating a new project or
-  applying it to an existing project.
+  A walk-through on how to use this template for creating a new PROJECT or
+  applying it to an existing PROJECT.
 order: 2
 ---
 
-<!-- TODO: Fill in this guide to match the template, especially PROJECT tags -->
+<!-- TODO: Review this guide to match your needs, especially replacing PROJECT tags -->
 
-This guide walks through how to use this template to create a new project or
-apply it to an existing project.
+This guide walks through how to use this template to create a new PROJECT or
+apply it to an existing PROJECT.
 
-## Creating a new project
+## Creating a new PROJECT
 
-You can use this template to create a new project with a standard set of files
+You can use this template to create a new PROJECT with a standard set of files
 and folders, as well as all the features and configurations to make it easier to
-build your project smoothly and effectively. First, open a terminal and run the
-following command:
+build your PROJECT smoothly and effectively. First, open a terminal and change
+your working directory to a location you want to create the new PROJECT in, e.g.
+`Documents/`:
 
 ```bash {filename="Terminal"}
-uvx copier copy gh:{{ github_repo_spec }} path/to/PROJECT-NAME
+cd Documents
+```
+
+Next, copy and paste the following command, replacing the `NAME` with the name
+you want for your new PROJECT. The `NAME` is the name you want to give for the
+new PROJECT's directory and (ideally) the GitHub repository for the PROJECT. The
+name should be something short and meaningful, ideally lowercase, with `-`
+instead of spaces, and no special characters.
+
+```bash {filename="Terminal"}
+uvx copier copy gh:{{ github_repo_spec }} NAME
 ```
 
 The `copy` command uses the template on GitHub (`gh:`) at the
-`{{ github_repo_spec }}` location. The `path/to/` is the location where you'd
-like the new project to be created and `PROJECT-NAME` is the name you want to
-give for the new project's directory and (ideally) the GitHub repository for the
-project. The name should be something short and meaningful, ideally lowercase,
-with `-` instead of spaces, and no special characters.
+`{{ github_repo_spec }}` location.
 
-## Applying to an existing project
+## Applying to an existing PROJECT
 
-If you want to use this template on an existing project, you can use the `copy`
+If you want to use this template on an existing PROJECT, you can use the `copy`
 command of `copier` just like above to apply the template to the existing
-project. This will add all the template's files and configurations to the
-existing project.
+PROJECT. This will add all the template's files and configurations to the
+existing PROJECT. First, open a terminal and move your working directory to the
+existing PROJECT's directory:
 
 ```bash {filename="Terminal"}
-uvx copier copy gh:{{ github_repo_spec }} path/to/EXISTING-PROJECT
+cd Documents/EXISTING-PROJECT
 ```
 
-See the comment above in the "Creating a new project" section about the naming
-of the existing project directory. It will go through a series of prompts, as in
-the case of creating a new project, including asking if you want to overwrite
+Next, copy and paste the command below. The `.` means "use the template in the
+current directory":
+
+```bash {filename="Terminal"}
+uvx copier copy gh:{{ github_repo_spec }} .
+```
+
+See the comment above in the "Creating a new PROJECT" section about the naming
+of the existing PROJECT directory. It will go through a series of prompts, as in
+the case of creating a new PROJECT, including asking if you want to overwrite
 existing files.
 
 ::: callout-note
-To use the `copy` command, the existing project needs to be tracked by Git and
+To use the `copy` command, the existing PROJECT needs to be tracked by Git and
 in a clean state (no changes have been made in the working directory).
 :::
