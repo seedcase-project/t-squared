@@ -1,6 +1,7 @@
-Review the [template guide](https://t-squared.seedcase-project.org/docs/guide/next-steps)
-for more information on how to use the template and the next steps after copying
-the project.
+Review the [template
+guide](https://t-squared.seedcase-project.org/docs/guide/next-steps) for more
+information on how to use the template and the next steps after copying the
+project.
 
 Next, run these commands in the terminal while inside of the project's
 directory. Either use your system's terminal or use the built-in terminal in VS
@@ -8,7 +9,8 @@ Code, Positron, or RStudio:
 
 - `git init -b main` to create the project as a Git repository.
 - (If you installed just) `just list-todos` and complete all the TODO items.
-- (If you installed just) `just build-readme` to build the Markdown version of the README from the Quarto version.
+- (If you installed just) `just build-readme` to build the Markdown version of
+  the README from the Quarto version.
 
 After going through all the TODO items and doing these tasks, add and commit the
 files into the Git history.
@@ -51,8 +53,9 @@ gh repo create {{ github_repo_spec }} --source=. --public --push
 
 If you use [Netlify](https://netlify.com), connect the repository to Netlify and
 turn off the builds on Netlify, since you will be using GitHub Actions to build
-and deploy the website. The [guide](https://t-squared.seedcase-project.org/docs/guide/next-steps)
-describes this in more detail.
+and deploy the website. The
+[guide](https://t-squared.seedcase-project.org/docs/guide/next-steps) describes
+this in more detail.
 
 {%- elif hosting_provider == "gh-pages" %}
 
