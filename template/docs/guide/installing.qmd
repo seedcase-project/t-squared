@@ -2,12 +2,14 @@
 title: "Installing"
 description: |
   Instructions for installing the required (and optional) programs to use this
-  template and create a new template project from it.
+  template and create a new PROJECT from it.
 order: 1
 ---
 
+<!-- TODO: Review this guide to match your needs, especially replacing PROJECT tags -->
+
 There are a few programs that are required to use this template to create
-another template project:
+another PROJECT:
 
 - [uv](https://docs.astral.sh/uv/): A tool for managing Python environments and
   running commands.
@@ -25,21 +27,21 @@ uv tool install copier
 ```
 
 uv will also install Python for you when you install Copier. After that, in
-order to do the [next steps](next-steps.qmd) and to use the template project
-created from the template, you need to install:
+order to do the [next steps](next-steps.qmd) and to use the PROJECT created from
+the template, you need to install:
 
 - [Git](https://git-scm.com/): For version control and setting up Git to track
-  the newly created project.
+  the newly created PROJECT.
 - [Quarto](https://quarto.org/): A scientific and technical publishing system
   built on Pandoc. The website built with this template is created with Quarto,
-  and the project created from this template is also set up to use Quarto too.
+  and the PROJECT created from this template is also set up to use Quarto too.
 - [gh cli](https://cli.github.com/): For managing GitHub repositories and
   settings from the command line. There are some post-creation steps we've
   included that use gh to simplify setting up a GitHub repository for the
-  project.
+  PROJECT.
 
 We **strongly recommend** installing and using these tools to help make it
-easier to develop the template project material created with this template:
+easier to develop the PROJECT material created with this template:
 
 - [Lychee](https://lychee.cli.rs/guides/getting-started/): A link checker that
   we include in the `justfile` for checking for broken links in the files.

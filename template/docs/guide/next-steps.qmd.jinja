@@ -5,24 +5,26 @@ description: |
 order: 3
 ---
 
+<!-- TODO: Review this guide to match your needs, especially replacing PROJECT tags -->
+
 While most of the steps to take after using the template are listed in the
-created `TODO.md` file within the newly created template project directory, this
-document details some of these steps a bit more. Use this guide alongside the
-`TODO.md` to complete those tasks.
+created `TODO.md` file within the newly created PROJECT directory, this document
+details some of these steps a bit more. Use this guide alongside the `TODO.md`
+to complete those tasks.
 
 One of the first set of tasks to do (as listed in the `TODO.md` file) is to get
 Git to track the workshop with `git init` and adding these files to the Git
 history. Usually it's better to first search for and complete all the `TODO`
-items throughout the project and only then add the files to the Git history,
+items throughout the PROJECT and only then add the files to the Git history,
 it's also fine to add and commit everything just to get the repository set up.
-So, at the minimum, the next commands to do *while in the template project's
-working directory* is to:
+So, at the minimum, the next commands to do *while in the PROJECT's working
+directory* is to:
 
 ```bash {.filename="Terminal"}
 git init -b main
 git add .
 # `chore` is a Conventional Commit tag.
-git commit -m "chore: start of project"
+git commit -m "chore: start of PROJECT"
 ```
 
 After that, there are two sets of tasks described in this document: required and
@@ -35,13 +37,12 @@ website.
 
 ### Setting up a GitHub repository
 
-One of the main purposes of this template is to set up a new template that can be
-easily used by others for whatever project that template will be used for (e.g.
-websites, Python packages). Which means the template project's Git repository
-needs to be hosted somewhere, like GitHub.
+One of the main purposes of this template is to set up a new PROJECT that can be
+easily used by others to quickly get started building a PROJECT. Which means the
+PROJECT's Git repository needs to be hosted somewhere, like GitHub.
 
-The quickest and easiest way of putting your template project on GitHub is to
-use the `gh` command line tool to upload the Git repository to GitHub:
+The quickest and easiest way of putting your PROJECT on GitHub is to use the
+`gh` command line tool to upload the Git repository to GitHub:
 
 ```bash {filename="Terminal"}
 gh repo create --source=. --public --push USER/REPO
@@ -50,14 +51,14 @@ gh repo create --source=. --public --push USER/REPO
 {% if for_seedcase -%}
 
 ::: callout-note
-If you're using the template to create a template project within the Seedcase
-Project's GitHub organization, use the instructions below that use a custom
-command line tool. We built this tool to help us manage our many GitHub
-repositories across several projects. While it's useful for us, it isn't
-designed or built in a way that makes it easy for others to use (yet).
+If you're using the template to create a PROJECT within the Seedcase Project's
+GitHub organization, use the instructions below that use a custom command line
+tool. We built this tool to help us manage our many GitHub repositories across
+several projects. While it's useful for us, it isn't designed or built in a way
+that makes it easy for others to use (yet).
 
-For setting up a GitHub repository for the created template project that will be
-part of the Seedcase Project, you'll need to install our internal tool
+For setting up a GitHub repository for the created PROJECT that will be part of
+the Seedcase Project, you'll need to install our internal tool
 [`spaid`](https://github.com/seedcase-project/spaid) and use the following
 commands to run the next setup steps:
 
@@ -101,13 +102,13 @@ This step is only necessary if you are using this template for a repository that
 is part of the Seedcase Project. If you are using this template for a different
 project, you can skip this step. If you have your own Quarto theme that you want
 to use, you can use this step as a general guide on how to add a Quarto theme to
-your project.
+your PROJECT.
 :::
 
 For Seedcase Project repositories, we have a custom Quarto extension that has
 our theme called `seedcase-theme`. The `justfile` has a recipe called
-`update-quarto-theme` that adds this theme to the project. Run it by opening a
-terminal within the project directory and running the following command:
+`update-quarto-theme` that adds this theme to the PROJECT. Run it by opening a
+terminal within the PROJECT directory and running the following command:
 
 ```bash {filename="Terminal"}
 just update-quarto-theme
