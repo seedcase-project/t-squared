@@ -1,26 +1,28 @@
 ---
 title: "Updating a project"
 description: |
-  A guide on updating a project that uses this template with the latest changes
+  A guide on updating a PROJECT that uses this template with the latest changes
   from the template.
 order: 4
 ---
 
+<!-- TODO: Review this guide to match your needs, especially replacing PROJECT tags -->
+
 One of the biggest strengths of Copier is that it allows you to easily update
-your project with any changes that have been made to the template since you
-first copied it. There are two ways to update (or sync) an existing project with
+your PROJECT with any changes that have been made to the template since you
+first copied it. There are two ways to update (or sync) an existing PROJECT with
 the latest changes from the template: `update` and `recopy`.
 
-- Use `update` to apply template updates to your project without overwriting
+- Use `update` to apply template updates to your PROJECT without overwriting
   local changes. `update` will compare the version of the template you used when
   you first copied the template with the current version of the template, and
   then apply the changes that are different. This also means it won't overwrite
-  any changes you made to files in your current project, for example, if you
+  any changes you made to files in your current PROJECT, for example, if you
   deleted a file that was in the template, it won't be copied back.
 
 - Use `recopy` if you want to reapply the template from scratch, which will
   overwrite any changes you made to the files that were copied from the
-  template. This is useful if you want to reset the project to the state of the
+  template. This is useful if you want to reset the PROJECT to the state of the
   template. For example, if you deleted a file but want it back from the
   template or are simply curious to see if there are any new changes that you
   might want to use.
@@ -37,5 +39,5 @@ uvx copier update --defaults
 uvx copier recopy --defaults
 ```
 
-As with the `copy` command, the project needs to be tracked by Git and must be
+As with the `copy` command, the PROJECT needs to be tracked by Git and must be
 in a clean state (no changes) for the `update` and `recopy` commands to work.

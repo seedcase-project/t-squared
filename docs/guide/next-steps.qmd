@@ -11,7 +11,7 @@ document details some of these steps a bit more. Use this guide alongside the
 `TODO.md` to complete those tasks.
 
 One of the first set of tasks to do (as listed in the `TODO.md` file) is to get
-Git to track the workshop with `git init` and adding these files to the Git
+Git to track the template with `git init` and adding these files to the Git
 history. Usually it's better to first search for and complete all the `TODO`
 items throughout the project and only then add the files to the Git history,
 it's also fine to add and commit everything just to get the repository set up.
@@ -153,7 +153,7 @@ quarto publish github-pages
 ## Optional
 
 These optional next steps are very helpful for developing and refining
-workshops. However, they are a bit more advanced than is required, so only do
+templates. However, they are a bit more advanced than is required, so only do
 them if you feel comfortable enough with them.
 
 ## Setting up pre-commit hooks
