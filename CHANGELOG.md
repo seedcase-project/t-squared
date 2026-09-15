@@ -21,6 +21,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.7](https://github.com/seedcase-project/t-squared/compare/0.10.6..0.10.7) - 2026-09-15
+
+### 🐛 Fixes
+
+- Correct typos in `TODO.md`
+  [#119](https://github.com/seedcase-project/t-squared/pull/119) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([21b5a44](https://github.com/seedcase-project/t-squared/commit/21b5a449616c5b55f73d1f949145a61324b22d4b))
+
 ## [0.10.6](https://github.com/seedcase-project/t-squared/compare/0.10.5..0.10.6) - 2026-09-14
 
 ### 🐛 Fixes
