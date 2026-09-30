@@ -21,6 +21,22 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.8](https://github.com/seedcase-project/t-squared/compare/0.10.7..0.10.8) - 2026-09-30
+
+### 🐛 Fixes
+
+- Add description of `lychee.toml` to CONTRIBUTING
+  [#124](https://github.com/seedcase-project/t-squared/pull/124) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([8bc7e9f](https://github.com/seedcase-project/t-squared/commit/8bc7e9f4d5fe949368baaafa2280223c44d55465))
+
+### 💄 Styling
+
+- Update Quarto theme
+  [#123](https://github.com/seedcase-project/t-squared/pull/123) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([03d18b8](https://github.com/seedcase-project/t-squared/commit/03d18b84605bd3bed675e4b950d97bdbfc82ebb5))
+
 ## [0.10.7](https://github.com/seedcase-project/t-squared/compare/0.10.6..0.10.7) - 2026-09-15
 
 ### 🐛 Fixes
