@@ -83,6 +83,8 @@ as explains a bit more about them and what they are used for.
   project, such as:
   - `typos.toml`: [typos](https://github.com/crate-ci/typos) spell checker
     configuration file.
+  - `lychee.toml`: [Lychee](https://lychee.cli.rs) URL checker configuration
+    file.
   - `rumdl.toml` and `panache.toml`: [rumdl](https://rumdl.dev) and
     [Panache](https://panache.bz) configuration file for formatting Markdown
     files in the project.
