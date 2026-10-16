@@ -21,20 +21,32 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.10.9](https://github.com/seedcase-project/t-squared/compare/0.10.8..0.10.9) - 2026-10-16
+
+### 🐛 Fixes
+
+- Remove max line length, uses hardwrap in e.g. Neovim
+  ([395eee0](https://github.com/seedcase-project/t-squared/commit/395eee0a62db90b4b6c6714488bd6ff9c810a5b9))
+
+### ♻️ Refactor
+
+- Update pre-commit hook versions
+  ([6802359](https://github.com/seedcase-project/t-squared/commit/6802359a3bff11eb44a8cf89875da1431eab3a35))
+- Use offline and remove typos in `cliff.toml`
+  ([96c9ae1](https://github.com/seedcase-project/t-squared/commit/96c9ae1b3dab95bedc3a99e836ec9b948b7ca1fe))
+
 ## [0.10.8](https://github.com/seedcase-project/t-squared/compare/0.10.7..0.10.8) - 2026-09-30
 
 ### 🐛 Fixes
 
 - Add description of `lychee.toml` to CONTRIBUTING
-  [#124](https://github.com/seedcase-project/t-squared/pull/124) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#124](https://github.com/seedcase-project/t-squared/pull/124)
   ([8bc7e9f](https://github.com/seedcase-project/t-squared/commit/8bc7e9f4d5fe949368baaafa2280223c44d55465))
 
 ### 💄 Styling
 
 - Update Quarto theme
-  [#123](https://github.com/seedcase-project/t-squared/pull/123) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#123](https://github.com/seedcase-project/t-squared/pull/123)
   ([03d18b8](https://github.com/seedcase-project/t-squared/commit/03d18b84605bd3bed675e4b950d97bdbfc82ebb5))
 
 ## [0.10.7](https://github.com/seedcase-project/t-squared/compare/0.10.6..0.10.7) - 2026-09-15
@@ -42,8 +54,7 @@ changelog.
 ### 🐛 Fixes
 
 - Correct typos in `TODO.md`
-  [#119](https://github.com/seedcase-project/t-squared/pull/119) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#119](https://github.com/seedcase-project/t-squared/pull/119)
   ([21b5a44](https://github.com/seedcase-project/t-squared/commit/21b5a449616c5b55f73d1f949145a61324b22d4b))
 
 ## [0.10.6](https://github.com/seedcase-project/t-squared/compare/0.10.5..0.10.6) - 2026-09-14
@@ -51,8 +62,7 @@ changelog.
 ### 🐛 Fixes
 
 - Use PROJECT tags in docs to replace after creation
-  [#117](https://github.com/seedcase-project/t-squared/pull/117) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#117](https://github.com/seedcase-project/t-squared/pull/117)
   ([25ca633](https://github.com/seedcase-project/t-squared/commit/25ca6332726da6406886d237ca47034c30e4ac76))
 
 ## [0.10.5](https://github.com/seedcase-project/t-squared/compare/0.10.4..0.10.5) - 2026-09-13
@@ -60,15 +70,13 @@ changelog.
 ### ♻️ Refactor
 
 - Improve explanation and details in using and next steps
-  [#115](https://github.com/seedcase-project/t-squared/pull/115) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#115](https://github.com/seedcase-project/t-squared/pull/115)
   ([613f773](https://github.com/seedcase-project/t-squared/commit/613f773a5dd34012d6a9fd8cac52ca2f3fa4cce6))
 
 ### 💄 Styling
 
 - Reformat Markdown
-  [#114](https://github.com/seedcase-project/t-squared/pull/114) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#114](https://github.com/seedcase-project/t-squared/pull/114)
   ([16a3289](https://github.com/seedcase-project/t-squared/commit/16a3289280161b9e52efff3089e91ec3b609199a))
 
 ## [0.10.4](https://github.com/seedcase-project/t-squared/compare/0.10.3..0.10.4) - 2026-09-13
@@ -76,41 +84,34 @@ changelog.
 ### 🐛 Fixes
 
 - Ignore `CHANGELOG.md` for typos, rumdl checks/fixes
-  [#108](https://github.com/seedcase-project/t-squared/pull/108) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#108](https://github.com/seedcase-project/t-squared/pull/108)
   ([51c8dcc](https://github.com/seedcase-project/t-squared/commit/51c8dccaad38361ebf684f0ca7f38ec44a9d3206))
 
 ### ♻️ Refactor
 
 - Improve the install instructions
-  [#107](https://github.com/seedcase-project/t-squared/pull/107) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#107](https://github.com/seedcase-project/t-squared/pull/107)
   ([116015a](https://github.com/seedcase-project/t-squared/commit/116015a02e9fe625b7d0dc5c9daea964dca7282f))
 - Use Lychee config file for config settings
-  [#109](https://github.com/seedcase-project/t-squared/pull/109) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#109](https://github.com/seedcase-project/t-squared/pull/109)
   ([c913592](https://github.com/seedcase-project/t-squared/commit/c9135922f26fc9960e75c300a344db470071e0e5))
 - Move next steps guide to after using guide
-  [#110](https://github.com/seedcase-project/t-squared/pull/110) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#110](https://github.com/seedcase-project/t-squared/pull/110)
   ([6155001](https://github.com/seedcase-project/t-squared/commit/61550012f98cc05329c60bd39a4c09f7d37c0baa))
 - Improve structure and explanation of `TODO.md`
-  [#111](https://github.com/seedcase-project/t-squared/pull/111) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#111](https://github.com/seedcase-project/t-squared/pull/111)
   ([e822492](https://github.com/seedcase-project/t-squared/commit/e8224921b1d3a606f3493ee36b7a81279a607022))
 
 ### 📝 Documentation
 
 - Fix ordering of guide pages
-  [#113](https://github.com/seedcase-project/t-squared/pull/113) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#113](https://github.com/seedcase-project/t-squared/pull/113)
   ([02bde15](https://github.com/seedcase-project/t-squared/commit/02bde154aa82ea564079a0e6c3814b2e475ec035))
 
 ### 💄 Styling
 
 - Resolve URLs to not redirect (informed by Lychee)
-  [#112](https://github.com/seedcase-project/t-squared/pull/112) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#112](https://github.com/seedcase-project/t-squared/pull/112)
   ([b6eaae0](https://github.com/seedcase-project/t-squared/commit/b6eaae0c4971c13159922c1e9bb96c0ff05b07f6))
 
 ## [0.10.3](https://github.com/seedcase-project/t-squared/compare/0.10.2..0.10.3) - 2026-09-02
@@ -118,8 +119,7 @@ changelog.
 ### 🐛 Fixes
 
 - Remove link Markdown for first release in git-cliff
-  [#104](https://github.com/seedcase-project/t-squared/pull/104) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#104](https://github.com/seedcase-project/t-squared/pull/104)
   ([7903c1f](https://github.com/seedcase-project/t-squared/commit/7903c1f4feed6918595ff6a412ee6b0237d7b6ce))
 
 ## [0.10.2](https://github.com/seedcase-project/t-squared/compare/0.10.1..0.10.2) - 2026-08-17
@@ -127,8 +127,7 @@ changelog.
 ### 🐛 Fixes
 
 - Exclude `.venv/` and `json.code-snippets` from TODO listing
-  [#97](https://github.com/seedcase-project/t-squared/pull/97) by
-  [`@signekb`](https://github.com/signekb)
+  [#97](https://github.com/seedcase-project/t-squared/pull/97)
   ([d19aff6](https://github.com/seedcase-project/t-squared/commit/d19aff674dcddbff1ceae661736a2953c7249756))
 
 ## [0.10.1](https://github.com/seedcase-project/t-squared/compare/0.10.0..0.10.1) - 2026-08-12
@@ -136,12 +135,10 @@ changelog.
 ### ♻️ Refactor
 
 - Include Jinja files when formatting Markdown
-  [#95](https://github.com/seedcase-project/t-squared/pull/95) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#95](https://github.com/seedcase-project/t-squared/pull/95)
   ([ef23ead](https://github.com/seedcase-project/t-squared/commit/ef23ead625b033d7e4bc0078528689676a742508))
 - Search in all files (hidden as well) for TODO items
-  [#96](https://github.com/seedcase-project/t-squared/pull/96) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#96](https://github.com/seedcase-project/t-squared/pull/96)
   ([c0f583f](https://github.com/seedcase-project/t-squared/commit/c0f583ff2fef8590cad56ff24147e4ecf0b7645c))
 
 ## [0.10.0](https://github.com/seedcase-project/t-squared/compare/0.9.0..0.10.0) - 2026-08-03
@@ -149,8 +146,7 @@ changelog.
 ### ✨ Features
 
 - Use Seedcase badge in navbar instead of house icon
-  [#89](https://github.com/seedcase-project/t-squared/pull/89) by
-  [`@signekb`](https://github.com/signekb)
+  [#89](https://github.com/seedcase-project/t-squared/pull/89)
   ([613cee8](https://github.com/seedcase-project/t-squared/commit/613cee8676456e622e7e476a6c545c5c2b374815))
 
 ## [0.9.0](https://github.com/seedcase-project/t-squared/compare/0.8.10..0.9.0) - 2026-06-30
@@ -158,52 +154,43 @@ changelog.
 ### ✨ Features
 
 - Include release workflows in non-Seedcase templates
-  [#75](https://github.com/seedcase-project/t-squared/pull/75) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#75](https://github.com/seedcase-project/t-squared/pull/75)
   ([5b8db7f](https://github.com/seedcase-project/t-squared/commit/5b8db7fad97e99cbc6e97114e5358ec8f09027f2))
 
 ### 🐛 Fixes
 
 - Don't check GitHub links, it requires authorisation token
-  [#79](https://github.com/seedcase-project/t-squared/pull/79) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#79](https://github.com/seedcase-project/t-squared/pull/79)
   ([69748a6](https://github.com/seedcase-project/t-squared/commit/69748a6fdb098db8b7edfe147d6a0f24c4b6613a))
 - Add path to typos config in VS Code settings
-  [#74](https://github.com/seedcase-project/t-squared/pull/74) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#74](https://github.com/seedcase-project/t-squared/pull/74)
   ([10c84db](https://github.com/seedcase-project/t-squared/commit/10c84db0a8485e9118fb36216c9839054a03b443))
 - Fix some minor grammar and doc issues
-  [#82](https://github.com/seedcase-project/t-squared/pull/82) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#82](https://github.com/seedcase-project/t-squared/pull/82)
   ([6ca3a02](https://github.com/seedcase-project/t-squared/commit/6ca3a02b314ce9b6f68e6103044f311324aa4ee1))
 - Match max line length with formatter settings
-  [#78](https://github.com/seedcase-project/t-squared/pull/78) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#78](https://github.com/seedcase-project/t-squared/pull/78)
   ([de9a9be](https://github.com/seedcase-project/t-squared/commit/de9a9be01ea4cca124a215d06c96a96a1f280b55))
 - Ignore formatting `_badges.qmd` as it gets mangled
-  [#76](https://github.com/seedcase-project/t-squared/pull/76) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#76](https://github.com/seedcase-project/t-squared/pull/76)
   ([9f4d144](https://github.com/seedcase-project/t-squared/commit/9f4d144c4c6fe949c0eccc7fe147aaea1f30f675))
 
 ### ♻️ Refactor
 
 - Match using `uvx` for Quarto like the other recipes
-  [#81](https://github.com/seedcase-project/t-squared/pull/81) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#81](https://github.com/seedcase-project/t-squared/pull/81)
   ([083f5cd](https://github.com/seedcase-project/t-squared/commit/083f5cdb54292ef55edecc36eaaf9a3248612b83))
 
 ### 💄 Styling
 
 - Update Quarto theme
-  [#80](https://github.com/seedcase-project/t-squared/pull/80) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#80](https://github.com/seedcase-project/t-squared/pull/80)
   ([82c535c](https://github.com/seedcase-project/t-squared/commit/82c535c8c234548142ac42e6034675f41920f81b))
 
 ### 👩‍💻 Miscellaneous
 
 - Fix minor things from running justfile
-  [#77](https://github.com/seedcase-project/t-squared/pull/77) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#77](https://github.com/seedcase-project/t-squared/pull/77)
   ([620cfc2](https://github.com/seedcase-project/t-squared/commit/620cfc266224b52889b596985082ba34edf2e7d3))
 
 ## [0.8.10](https://github.com/seedcase-project/t-squared/compare/0.8.9..0.8.10) - 2026-06-05
@@ -211,8 +198,7 @@ changelog.
 ### 🐛 Fixes
 
 - Point to `docs/includes/` for site counter
-  [#69](https://github.com/seedcase-project/t-squared/pull/69) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#69](https://github.com/seedcase-project/t-squared/pull/69)
   ([4079738](https://github.com/seedcase-project/t-squared/commit/4079738ab6cc8f0ce256ef0f4d3bb35dd3d01fad))
 
 ## [0.8.9](https://github.com/seedcase-project/t-squared/compare/0.8.8..0.8.9) - 2026-06-04
@@ -220,8 +206,7 @@ changelog.
 ### 🐛 Fixes
 
 - Correct spacing in CHANGELOG generation
-  [#68](https://github.com/seedcase-project/t-squared/pull/68) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#68](https://github.com/seedcase-project/t-squared/pull/68)
   ([cf2c14d](https://github.com/seedcase-project/t-squared/commit/cf2c14d9962b37ec8f22e6a3babf0bed5c1af1bc))
 
 ## [0.8.8](https://github.com/seedcase-project/t-squared/compare/0.8.7..0.8.8) - 2026-06-04
@@ -229,43 +214,33 @@ changelog.
 ### ♻️ Refactor
 
 - Match name of job to name of workflow file
-  [#67](https://github.com/seedcase-project/t-squared/pull/67) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#67](https://github.com/seedcase-project/t-squared/pull/67)
   ([d340705](https://github.com/seedcase-project/t-squared/commit/d34070575f6c90d2ad998d372db82718b842db64))
 
 ### 📝 Documentation
 
 - Change intro on landing page
-  [#61](https://github.com/seedcase-project/t-squared/pull/61) by
-  [`@signekb`](https://github.com/signekb)
-  ([53661bb](https://github.com/seedcase-project/t-squared/commit/53661bb095cde7501d6d0db47f5fe605136fcc71))
-
-### ❤️ New contributors
-
-- [`@signekb`](https://github.com/signekb) made their first contribution in
   [#61](https://github.com/seedcase-project/t-squared/pull/61)
+  ([53661bb](https://github.com/seedcase-project/t-squared/commit/53661bb095cde7501d6d0db47f5fe605136fcc71))
 
 ## [0.8.7](https://github.com/seedcase-project/t-squared/compare/0.8.6..0.8.7) - 2026-06-02
 
 ### 🐛 Fixes
 
 - Format `md` files too with Panache in VS Code
-  [#60](https://github.com/seedcase-project/t-squared/pull/60) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#60](https://github.com/seedcase-project/t-squared/pull/60)
   ([11951fe](https://github.com/seedcase-project/t-squared/commit/11951fe23e05912ba53557a4388adaf6558f9381))
 
 ### ♻️ Refactor
 
 - Update docs after changes to config files
-  [#58](https://github.com/seedcase-project/t-squared/pull/58) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#58](https://github.com/seedcase-project/t-squared/pull/58)
   ([3da8f01](https://github.com/seedcase-project/t-squared/commit/3da8f01ee70d6df006f67e1b839538242ea937e7))
 
 ### 📝 Documentation
 
 - Update contributors and WIP badge
-  [#59](https://github.com/seedcase-project/t-squared/pull/59) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#59](https://github.com/seedcase-project/t-squared/pull/59)
   ([96d8360](https://github.com/seedcase-project/t-squared/commit/96d836078999163abb4bd77bcecbde57b19e139f))
 
 ## [0.8.6](https://github.com/seedcase-project/t-squared/compare/0.8.5..0.8.6) - 2026-06-02
@@ -273,8 +248,7 @@ changelog.
 ### ♻️ Refactor
 
 - Use Panache for formatter in Markdown files in VS Code
-  [#52](https://github.com/seedcase-project/t-squared/pull/52) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#52](https://github.com/seedcase-project/t-squared/pull/52)
   ([f8753e9](https://github.com/seedcase-project/t-squared/commit/f8753e9a0687a0ec2912b236a7b8829dc791049b))
 
 ## [0.8.5](https://github.com/seedcase-project/t-squared/compare/0.8.4..0.8.5) - 2026-06-02
@@ -282,8 +256,7 @@ changelog.
 ### ♻️ Refactor
 
 - Move `.typos.toml` into `.config/` (again)
-  [#51](https://github.com/seedcase-project/t-squared/pull/51) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#51](https://github.com/seedcase-project/t-squared/pull/51)
   ([22f0a03](https://github.com/seedcase-project/t-squared/commit/22f0a03501a26ed0508a7400a48da7ea41aba339))
 
 ## [0.8.4](https://github.com/seedcase-project/t-squared/compare/0.8.3..0.8.4) - 2026-06-02
@@ -291,8 +264,7 @@ changelog.
 ### 🐛 Fixes
 
 - Rearrange pre-commit hooks to run correctly
-  [#50](https://github.com/seedcase-project/t-squared/pull/50) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#50](https://github.com/seedcase-project/t-squared/pull/50)
   ([d26bb1a](https://github.com/seedcase-project/t-squared/commit/d26bb1a0e73cf9acd64fcc16488087fd595b8d1b))
 
 ## [0.8.3](https://github.com/seedcase-project/t-squared/compare/0.8.2..0.8.3) - 2026-06-02
@@ -300,8 +272,7 @@ changelog.
 ### ♻️ Refactor
 
 - Run Panache on CHANGELOG after bump
-  [#49](https://github.com/seedcase-project/t-squared/pull/49) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#49](https://github.com/seedcase-project/t-squared/pull/49)
   ([094564f](https://github.com/seedcase-project/t-squared/commit/094564f5ea37716a7a5dc0fcfa43ef50b7db134a))
 
 ## [0.8.2](https://github.com/seedcase-project/t-squared/compare/0.8.1..0.8.2) - 2026-06-02
@@ -309,8 +280,7 @@ changelog.
 ### ♻️ Refactor
 
 - Only give error for a typo, don't fix
-  [#48](https://github.com/seedcase-project/t-squared/pull/48) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#48](https://github.com/seedcase-project/t-squared/pull/48)
   ([c200cdb](https://github.com/seedcase-project/t-squared/commit/c200cdb1eaff34fca0d118b11f53316f24a1a196))
 
 ## [0.8.1](https://github.com/seedcase-project/t-squared/compare/0.8.0..0.8.1) - 2026-06-02
@@ -318,8 +288,7 @@ changelog.
 ### ♻️ Refactor
 
 - Move all `-all` recipes to top to find easily
-  [#47](https://github.com/seedcase-project/t-squared/pull/47) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#47](https://github.com/seedcase-project/t-squared/pull/47)
   ([ddb51c0](https://github.com/seedcase-project/t-squared/commit/ddb51c0c4960040552930998fe5f9baf24031076))
 
 ## [0.8.0](https://github.com/seedcase-project/t-squared/compare/0.7.6..0.8.0) - 2026-06-02
@@ -327,8 +296,7 @@ changelog.
 ### ✨ Features
 
 - Add Panache Quarto formatter
-  [#46](https://github.com/seedcase-project/t-squared/pull/46) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#46](https://github.com/seedcase-project/t-squared/pull/46)
   ([7d37e46](https://github.com/seedcase-project/t-squared/commit/7d37e4624ace75de4c3ecbd337095b8a9dbc9cb6))
 
 ## [0.7.6](https://github.com/seedcase-project/t-squared/compare/0.7.5..0.7.6) - 2026-06-02
@@ -336,29 +304,21 @@ changelog.
 ### 🐛 Fixes
 
 - Windows compatible file names
-  [#45](https://github.com/seedcase-project/t-squared/pull/45) by
-  [`@DanMazJen`](https://github.com/DanMazJen)
-  ([b3e6128](https://github.com/seedcase-project/t-squared/commit/b3e612809def9f0552335b9e8d39cbf278a52b06))
-
-### ❤️ New contributors
-
-- [`@DanMazJen`](https://github.com/DanMazJen) made their first contribution in
   [#45](https://github.com/seedcase-project/t-squared/pull/45)
+  ([b3e6128](https://github.com/seedcase-project/t-squared/commit/b3e612809def9f0552335b9e8d39cbf278a52b06))
 
 ## [0.7.5](https://github.com/seedcase-project/t-squared/compare/0.7.4..0.7.5) - 2026-05-21
 
 ### 🐛 Fixes
 
 - Correct placement of minus in CONTRIBUTING
-  [#41](https://github.com/seedcase-project/t-squared/pull/41) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#41](https://github.com/seedcase-project/t-squared/pull/41)
   ([f061065](https://github.com/seedcase-project/t-squared/commit/f061065e3ee26fa7b728342ed0616a80bf8f1f53))
 
 ### 👩‍💻 Miscellaneous
 
 - Updates from template
-  [#40](https://github.com/seedcase-project/t-squared/pull/40) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#40](https://github.com/seedcase-project/t-squared/pull/40)
   ([055f468](https://github.com/seedcase-project/t-squared/commit/055f468ce201363cfdbb0a426552c30c8d782d43))
 
 ## [0.7.4](https://github.com/seedcase-project/t-squared/compare/0.7.3..0.7.4) - 2026-05-21
@@ -366,12 +326,10 @@ changelog.
 ### 🐛 Fixes
 
 - Fix some typos and incorrect paths in Next Steps guide
-  [#35](https://github.com/seedcase-project/t-squared/pull/35) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#35](https://github.com/seedcase-project/t-squared/pull/35)
   ([4f9946b](https://github.com/seedcase-project/t-squared/commit/4f9946b2ffe3b765a70f13f8a7bec092eaa05036))
 - Should be called "project", not "website" in test script
-  [#36](https://github.com/seedcase-project/t-squared/pull/36) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#36](https://github.com/seedcase-project/t-squared/pull/36)
   ([d2f7637](https://github.com/seedcase-project/t-squared/commit/d2f7637fb97a10672515770dc7e7158fd983806b))
 
 ## [0.7.3](https://github.com/seedcase-project/t-squared/compare/0.7.2..0.7.3) - 2026-05-21
@@ -379,26 +337,22 @@ changelog.
 ### 🐛 Fixes
 
 - Use correct placement of `-` in Jinja conditionals
-  [#39](https://github.com/seedcase-project/t-squared/pull/39) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#39](https://github.com/seedcase-project/t-squared/pull/39)
   ([7e48be9](https://github.com/seedcase-project/t-squared/commit/7e48be9676ca7892cb9b368700b9cf81daae98e2))
 
 ### ♻️ Refactor
 
 - Update explanation of files in CONTRIBUTING
-  [#38](https://github.com/seedcase-project/t-squared/pull/38) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#38](https://github.com/seedcase-project/t-squared/pull/38)
   ([6225690](https://github.com/seedcase-project/t-squared/commit/6225690889ba42aad15ea0ecd98a82eaa14e491a))
 - Minor, mostly stylistic changes to Quarto config files
-  [#34](https://github.com/seedcase-project/t-squared/pull/34) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#34](https://github.com/seedcase-project/t-squared/pull/34)
   ([be9e264](https://github.com/seedcase-project/t-squared/commit/be9e26426e10a59d205cb03d5ec632584b4142a6))
 
 ### 📝 Documentation
 
 - Mention Cocogitto and git-cliff, not Commitizen
-  [#37](https://github.com/seedcase-project/t-squared/pull/37) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#37](https://github.com/seedcase-project/t-squared/pull/37)
   ([78b8f31](https://github.com/seedcase-project/t-squared/commit/78b8f31467102c07b4b9086d06f5ee57b9cff0a9))
 
 ## [0.7.2](https://github.com/seedcase-project/t-squared/compare/0.7.1..0.7.2) - 2026-05-21
@@ -406,8 +360,7 @@ changelog.
 ### ♻️ Refactor
 
 - Rename to `check` from `test` in checks workflow
-  [#33](https://github.com/seedcase-project/t-squared/pull/33) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#33](https://github.com/seedcase-project/t-squared/pull/33)
   ([e247e18](https://github.com/seedcase-project/t-squared/commit/e247e18965c3cb8158a39d53306fe6acfe66268a))
 
 ## [0.7.1](https://github.com/seedcase-project/t-squared/compare/0.7.0..0.7.1) - 2026-05-21
@@ -415,19 +368,16 @@ changelog.
 ### 🐛 Fixes
 
 - `--config` must come before `bump`
-  [#32](https://github.com/seedcase-project/t-squared/pull/32) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#32](https://github.com/seedcase-project/t-squared/pull/32)
   ([3ae44e5](https://github.com/seedcase-project/t-squared/commit/3ae44e53b2f5d0d39aa2c5e957f456999d43ab82))
 
 ### ♻️ Refactor
 
 - Moved config files into `.config/`
-  [#30](https://github.com/seedcase-project/t-squared/pull/30) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#30](https://github.com/seedcase-project/t-squared/pull/30)
   ([da0ed5f](https://github.com/seedcase-project/t-squared/commit/da0ed5fcf01db6b21e88c783f8363af7e07865fa))
 - Quiet git-cliff in workflow
-  [#31](https://github.com/seedcase-project/t-squared/pull/31) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#31](https://github.com/seedcase-project/t-squared/pull/31)
   ([0023b58](https://github.com/seedcase-project/t-squared/commit/0023b5886127c5ea1772c7b12732fd503cb8205a))
 
 ## [0.7.0](https://github.com/seedcase-project/t-squared/compare/0.6.2..0.7.0) - 2026-05-19
@@ -435,15 +385,13 @@ changelog.
 ### ✨ Features
 
 - Consolidate test/check workflows
-  [#25](https://github.com/seedcase-project/t-squared/pull/25) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#25](https://github.com/seedcase-project/t-squared/pull/25)
   ([f1ed9b5](https://github.com/seedcase-project/t-squared/commit/f1ed9b5bc696c41cb8d246975ea036a15344b2ae))
 
 ### 👩‍💻 Miscellaneous
 
 - Add admin team to CODEOWNERS to be notified
-  [#28](https://github.com/seedcase-project/t-squared/pull/28) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#28](https://github.com/seedcase-project/t-squared/pull/28)
   ([050202e](https://github.com/seedcase-project/t-squared/commit/050202e6a324c704d906bf3283595027d521e601))
 
 ## [0.6.2](https://github.com/seedcase-project/t-squared/compare/0.6.1..0.6.2) - 2026-05-19
@@ -451,15 +399,13 @@ changelog.
 ### ♻️ Refactor
 
 - Move pre-commit auto-update to before running it in justfile
-  [#21](https://github.com/seedcase-project/t-squared/pull/21) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#21](https://github.com/seedcase-project/t-squared/pull/21)
   ([9d8ca34](https://github.com/seedcase-project/t-squared/commit/9d8ca34322d958d8b77c57b9e54af652452736c0))
 
 ### 💄 Styling
 
 - Update Quarto Seedcase theme
-  [#24](https://github.com/seedcase-project/t-squared/pull/24) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#24](https://github.com/seedcase-project/t-squared/pull/24)
   ([eb5131e](https://github.com/seedcase-project/t-squared/commit/eb5131ed0697d753d85811313e1251264379ae30))
 
 ## [0.6.1](https://github.com/seedcase-project/t-squared/compare/0.6.0..0.6.1) - 2026-05-19
@@ -467,12 +413,10 @@ changelog.
 ### 🐛 Fixes
 
 - Correct release workflows after running it
-  [#26](https://github.com/seedcase-project/t-squared/pull/26) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#26](https://github.com/seedcase-project/t-squared/pull/26)
   ([e141c9a](https://github.com/seedcase-project/t-squared/commit/e141c9a1393c62742b3f0e1892892b066f309ae0))
 - Resolve permissions and improve CI logging
-  [#27](https://github.com/seedcase-project/t-squared/pull/27) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#27](https://github.com/seedcase-project/t-squared/pull/27)
   ([0e54d29](https://github.com/seedcase-project/t-squared/commit/0e54d299f1d136b9aa972242dcb81817454dff65))
 
 ## [0.6.0](https://github.com/seedcase-project/t-squared/compare/0.5.1..0.6.0) - 2026-05-19
@@ -480,15 +424,13 @@ changelog.
 ### ✨ Features
 
 - Switch to using Cocogitto and git-cliff for releases
-  [#23](https://github.com/seedcase-project/t-squared/pull/23) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#23](https://github.com/seedcase-project/t-squared/pull/23)
   ([13bc974](https://github.com/seedcase-project/t-squared/commit/13bc9740edfc3f25b6f6cad754ce77e93fdab853))
 
 ### 👩‍💻 Miscellaneous
 
 - `platform-templates` team is CODEOWNERS
-  [#20](https://github.com/seedcase-project/t-squared/pull/20) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#20](https://github.com/seedcase-project/t-squared/pull/20)
   ([45c959c](https://github.com/seedcase-project/t-squared/commit/45c959cd2e251c87ad377a6d72c881a8a2102d63))
 
 ## [0.5.1](https://github.com/seedcase-project/t-squared/compare/0.5.0..0.5.1) - 2026-05-18
@@ -496,15 +438,13 @@ changelog.
 ### ♻️ Refactor
 
 - Remove commitizen pre-commit, we don't need it
-  [#17](https://github.com/seedcase-project/t-squared/pull/17) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#17](https://github.com/seedcase-project/t-squared/pull/17)
   ([843d330](https://github.com/seedcase-project/t-squared/commit/843d33070ca42e78572d999d19cc15b6ec7c5901))
 
 ### 👩‍💻 Miscellaneous
 
 - Move auto-update of pre-commit hooks up in recipe
-  [#16](https://github.com/seedcase-project/t-squared/pull/16) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#16](https://github.com/seedcase-project/t-squared/pull/16)
   ([316e7cf](https://github.com/seedcase-project/t-squared/commit/316e7cfd10e5c1a2490c2b578a82e383f9ca190b))
 
 ## [0.4.1](https://github.com/seedcase-project/t-squared/compare/0.4.0..0.4.1) - 2026-04-27
@@ -512,236 +452,187 @@ changelog.
 ### 🐛 Fixes
 
 - `_badges.qmd` has many Quarto shortcodes, so don't use it as Jinja file
-  [#9](https://github.com/seedcase-project/t-squared/pull/9) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#9](https://github.com/seedcase-project/t-squared/pull/9)
   ([c228754](https://github.com/seedcase-project/t-squared/commit/c2287549badd544233e58974880a181cc0479a0e))
 - Attach commitizen changelog to GitHub release
-  [#7](https://github.com/seedcase-project/t-squared/pull/7) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#7](https://github.com/seedcase-project/t-squared/pull/7)
   ([a1b8fb5](https://github.com/seedcase-project/t-squared/commit/a1b8fb545708ea7d341fe1ca1c33d89a11aaa25e))
 
 ### 👩‍💻 Miscellaneous
 
 - Don't need to sync any files into template
-  [#10](https://github.com/seedcase-project/t-squared/pull/10) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  [#10](https://github.com/seedcase-project/t-squared/pull/10)
   ([435a1b8](https://github.com/seedcase-project/t-squared/commit/435a1b8b3a73124bf06bec69ce6247803e155cd9))
 
 ## [0.4.0](https://github.com/seedcase-project/t-squared/compare/0.3.2..0.4.0) - 2026-04-27
 
 ### ✨ Features
 
-- Add TODO item for connecting pre-commit.ci by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add TODO item for connecting pre-commit.ci
   ([a96083a](https://github.com/seedcase-project/t-squared/commit/a96083a669a0ac7b7d1c2af17a0d2e037cf1fe99))
 
 ### 🐛 Fixes
 
-- Use Jinja `-` at end of `if` to remove ending space by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Use Jinja `-` at end of `if` to remove ending space
   ([909cb1b](https://github.com/seedcase-project/t-squared/commit/909cb1b240297b3f10376848412c5cb578916187))
-- Site-counter should be in `docs/includes/` by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Site-counter should be in `docs/includes/`
   ([1a488b3](https://github.com/seedcase-project/t-squared/commit/1a488b37255b04915cbd2aeec5120fc9b07a0701))
-- Need to add TODO item for GoatCounter by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Need to add TODO item for GoatCounter
   ([e55d98e](https://github.com/seedcase-project/t-squared/commit/e55d98e97e412a9cb497aa2788b832c9502de5f2))
-- Should be `CITATION.cff`, not `.zenodo.json` by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Should be `CITATION.cff`, not `.zenodo.json`
   ([06446c6](https://github.com/seedcase-project/t-squared/commit/06446c6d7de59c1e26e3aa32732e63083686beaa))
-- Mistyped "data package", should be "project" by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Mistyped "data package", should be "project"
   ([1fa21d3](https://github.com/seedcase-project/t-squared/commit/1fa21d37496289eb6ec0f1fcef46ea4e55b60f7d))
-- Add callout-warnings about some post-creation steps by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add callout-warnings about some post-creation steps
   ([697b6d6](https://github.com/seedcase-project/t-squared/commit/697b6d6c28eb2e688f3c0bd307ed2a5a7b261e50))
 
 ### ♻️ Refactor
 
-- Move permissions to workflow level by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Move permissions to workflow level
   ([3273dec](https://github.com/seedcase-project/t-squared/commit/3273dec226daaaf8eca242289be5dc395a15cbc2))
-- Only include CHANGELOG and `.cz.toml` for Seedcase repos by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Only include CHANGELOG and `.cz.toml` for Seedcase repos
   ([6a9c19c](https://github.com/seedcase-project/t-squared/commit/6a9c19c5fed32ec145b6924e56123fc64d66e11e))
-- Ignore listing TODO items in `_temp/` folder by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Ignore listing TODO items in `_temp/` folder
   ([f2ab300](https://github.com/seedcase-project/t-squared/commit/f2ab300b4c30a794b59d657522c41f5bfccd8f87))
-- Also run Markdown formatter on Jinja files by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Also run Markdown formatter on Jinja files
   ([ee3b0aa](https://github.com/seedcase-project/t-squared/commit/ee3b0aa04ab7acfa3c2226fd8caa6e17b798a959))
-- Format Markdown files by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Format Markdown files
   ([a04a8bd](https://github.com/seedcase-project/t-squared/commit/a04a8bd7e7f518f07c87e3126ba5345773660d1a))
-- Delete previous manual test folder by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Delete previous manual test folder
   ([71f883c](https://github.com/seedcase-project/t-squared/commit/71f883c8f89436ffca6dfd91a87282d1e00a9b34))
-- Don't show release badge for non-Seedcase projects by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Don't show release badge for non-Seedcase projects
   ([f7c3f70](https://github.com/seedcase-project/t-squared/commit/f7c3f704da2ad351467b514c9f44b9f8649694a1))
 
 ### 📝 Documentation
 
-- Add DOI badge after publishing to Zenodo by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add DOI badge after publishing to Zenodo
   ([d4e45b4](https://github.com/seedcase-project/t-squared/commit/d4e45b485f695e88f92fb0d78005f748bdb296b2))
-- Add DOI to `CITATION.cff` by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add DOI to `CITATION.cff`
   ([bd410ed](https://github.com/seedcase-project/t-squared/commit/bd410ed7b84c000d1db7e69d4d9a1e2e4d820ebe))
-- Rebuild README by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Rebuild README
   ([f00bae8](https://github.com/seedcase-project/t-squared/commit/f00bae8f4d572407c42cdc7dab3cb7d4ea6de6aa))
-- There is no `.zenodo.json`, only `CITATION.cff` by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- There is no `.zenodo.json`, only `CITATION.cff`
   ([e06ce2d](https://github.com/seedcase-project/t-squared/commit/e06ce2d5dcbd9d26e98a0028ea651d8947c91d59))
 
 ### 👩‍💻 Miscellaneous
 
-- Add justfile recipe with tests for all combinations by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add justfile recipe with tests for all combinations
   ([9944062](https://github.com/seedcase-project/t-squared/commit/9944062734f30040caf5136ecbfe83224e9363eb))
 
 ## [0.3.2](https://github.com/seedcase-project/t-squared/compare/0.3.1..0.3.2) - 2026-04-25
 
 ### 🐛 Fixes
 
-- Use new name `client-id` for GH App by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Use new name `client-id` for GH App
   ([d449354](https://github.com/seedcase-project/t-squared/commit/d449354c60ff598851395e6f5340a3d0d4449402))
-- `gh release` needs `env: GH_TOKEN` to work by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- `gh release` needs `env: GH_TOKEN` to work
   ([a34dfcf](https://github.com/seedcase-project/t-squared/commit/a34dfcf4bab34d639ea4e11c83f0f5d13a07d445))
 
 ## [0.3.1](https://github.com/seedcase-project/t-squared/compare/0.3.0..0.3.1) - 2026-04-25
 
 ### ♻️ Refactor
 
-- Update GitHub action versions by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Update GitHub action versions
   ([3b7f50b](https://github.com/seedcase-project/t-squared/commit/3b7f50bb3298a1522ae748d1a454e3736ebabf75))
 
 ### 👩‍💻 Miscellaneous
 
-- Finished TODO items by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Finished TODO items
   ([e1faddd](https://github.com/seedcase-project/t-squared/commit/e1faddda829da00f15e2ab7a28257d1c747b02f6))
-- Add Netlify site ID to host website by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add Netlify site ID to host website
   ([38b3cd4](https://github.com/seedcase-project/t-squared/commit/38b3cd4a54c8c771834731276d8f7074e6736d11))
 
 ## 0.2.0 - 2026-04-24
 
 ### ✨ Features
 
-- Start of t-squared template by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Start of t-squared template
   ([a3fdcfd](https://github.com/seedcase-project/t-squared/commit/a3fdcfd02ca8888794db95b7c6070cd4275b8ed5))
-- VS Code settings for consistent DevEx by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- VS Code settings for consistent DevEx
   ([533e614](https://github.com/seedcase-project/t-squared/commit/533e61488827d2e22900343ea415560e036d4df1))
-- Index landing page for Quarto website by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Index landing page for Quarto website
   ([543f0c6](https://github.com/seedcase-project/t-squared/commit/543f0c64127f6d9253af227671a4ba219c0f72b6))
-- Add community health files by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add community health files
   ([3d1516a](https://github.com/seedcase-project/t-squared/commit/3d1516a441deb731da029c0776791f73c30d0397))
-- Add DevEx files and settings by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add DevEx files and settings
   ([664956a](https://github.com/seedcase-project/t-squared/commit/664956a827f1cc6c0db3027f083121916aff0ff0))
-- Add MIT License file by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add MIT License file
   ([84d4974](https://github.com/seedcase-project/t-squared/commit/84d49747654973582a1f74b19d16b69b81f09256))
-- Add GitHub CI/CD workflows by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add GitHub CI/CD workflows
   ([183350e](https://github.com/seedcase-project/t-squared/commit/183350e72e90fb2885c907cd271bcbb470c46e9a))
-- Add TODO file for post-creation steps by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add TODO file for post-creation steps
   ([cd15911](https://github.com/seedcase-project/t-squared/commit/cd15911885871cdd3f33f04b8cefc0a5b509ef5e))
-- Add auto-release files and changelog files by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add auto-release files and changelog files
   ([2e8f669](https://github.com/seedcase-project/t-squared/commit/2e8f669d3cb8bb73884d83d27d6f86880d8e9c1f))
-- Add Quarto config files by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add Quarto config files
   ([20267ae](https://github.com/seedcase-project/t-squared/commit/20267ae17fd292f180f56a0494a7ec0c079c7964))
-- Add 404 page for the websites by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add 404 page for the websites
   ([b5e27a5](https://github.com/seedcase-project/t-squared/commit/b5e27a5fc88921e565526741594c8824e67e60c5))
-- Add GoatCounter website visit counter by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add GoatCounter website visit counter
   ([fe208f6](https://github.com/seedcase-project/t-squared/commit/fe208f6f168736bb69607c0a70b7041d4ab922c7))
-- Include the required copier answer file by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Include the required copier answer file
   ([9d8ac7c](https://github.com/seedcase-project/t-squared/commit/9d8ac7c4b891a3c844e258998b5a5434e2c923d6))
-- Add justfile with build recipes by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add justfile with build recipes
   ([1abc1c9](https://github.com/seedcase-project/t-squared/commit/1abc1c9211bd51d5cc8153d1b23ec1236fa38b5d))
-- Add CITATION.cff file by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add CITATION.cff file
   ([4151c5a](https://github.com/seedcase-project/t-squared/commit/4151c5a8fea42bc851b62595890aac512ba5ba8f))
-- Add guide docs by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add guide docs
   ([ff95207](https://github.com/seedcase-project/t-squared/commit/ff95207859e5ff46735dd23c0ff439c19584045b))
-- A `copier.yaml` for the created template by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- A `copier.yaml` for the created template
   ([0d9c1f6](https://github.com/seedcase-project/t-squared/commit/0d9c1f677c98f017b400090d8d127250c2a677eb))
-- Script tool to add a list of contributors by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Script tool to add a list of contributors
   ([2258687](https://github.com/seedcase-project/t-squared/commit/2258687dfa1ec15a20c20caaa189ef35126c4ecf))
-- Quarto includes file for badges by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Quarto includes file for badges
   ([f1d601a](https://github.com/seedcase-project/t-squared/commit/f1d601a6f2ee43fcd691c86230a34438285b2271))
-- Add READMEs (both qmd and md) by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add READMEs (both qmd and md)
   ([89ffa9e](https://github.com/seedcase-project/t-squared/commit/89ffa9e25c274711b6ef868ba847effe4a5a966f))
-- Add a test script to test template creation by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add a test script to test template creation
   ([19d93da](https://github.com/seedcase-project/t-squared/commit/19d93daf8c4f5c445229c4e5a13ddfd5878f28d9))
 
 ### 🐛 Fixes
 
-- Don't need to use `trust` nor `skip-tasks` by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Don't need to use `trust` nor `skip-tasks`
   ([d42801b](https://github.com/seedcase-project/t-squared/commit/d42801bbd0fa07ca5aa48496c91112d083307711))
 
 ### ♻️ Refactor
 
-- Minor improvements to the questions by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Minor improvements to the questions
   ([c425d9b](https://github.com/seedcase-project/t-squared/commit/c425d9b9db3805274e4d9c0c67bb79aed73239e2))
-- Only have release and add to board workflows for Seedcase by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Only have release and add to board workflows for Seedcase
   ([4554163](https://github.com/seedcase-project/t-squared/commit/4554163b201caa623a4beffb51e612b641cf2fc6))
-- Minor improvements landing page by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Minor improvements landing page
   ([7afdc9e](https://github.com/seedcase-project/t-squared/commit/7afdc9eaeca2ed3c8f4933195910eb1cc9158085))
-- Add guide sidebar to Quarto config by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add guide sidebar to Quarto config
   ([17f0576](https://github.com/seedcase-project/t-squared/commit/17f0576fd7aaa19aa2f2495485007f8bb078f756))
-- Include explanation of files and folders in CONTRIBUTING by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Include explanation of files and folders in CONTRIBUTING
   ([9deb1bb](https://github.com/seedcase-project/t-squared/commit/9deb1bb00d496961ab9d6292dfb35a53720e3e51))
-- Don't search `copier.yaml` for TODO items by
-  [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Don't search `copier.yaml` for TODO items
   ([dabf81b](https://github.com/seedcase-project/t-squared/commit/dabf81be6409efc79f562567c9b54e73fe54cdd0))
-- Update pre-commit versions by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Update pre-commit versions
   ([8287917](https://github.com/seedcase-project/t-squared/commit/82879178a6b8169093f609cfae9dcbbe3c6bcd57))
 
 ### 📝 Documentation
 
-- Generated the README file by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Generated the README file
   ([566cf5b](https://github.com/seedcase-project/t-squared/commit/566cf5b12f3742ea019bd7a9cc0a861e82c15cd6))
 
 ### 💄 Styling
 
-- Add Seedcase theme by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add Seedcase theme
   ([699516f](https://github.com/seedcase-project/t-squared/commit/699516f014b2ad76cc840815811ecd2fdca0ab15))
-- Ran pre-commit hooks by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Ran pre-commit hooks
   ([9e39cfd](https://github.com/seedcase-project/t-squared/commit/9e39cfd79bd2aee172dca4562f0da55ec04087f7))
-- Ran Markdown formatter by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Ran Markdown formatter
   ([70cf518](https://github.com/seedcase-project/t-squared/commit/70cf518ec6b948e80aa7163547594408894a4410))
 
 ### 🧪 Tests
 
-- Fill in test script values by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Fill in test script values
   ([bb054bb](https://github.com/seedcase-project/t-squared/commit/bb054bbb90f3d7d359c2a255350404833cda2977))
 
 ### 👩‍💻 Miscellaneous
 
-- Add `CITATION.cff` file by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- Add `CITATION.cff` file
   ([d770ecd](https://github.com/seedcase-project/t-squared/commit/d770ecdae1402e9c1bdfe4a026bf086dc442417e))
-- T-squared creating itself by [`@lwjohnst86`](https://github.com/lwjohnst86)
+- T-squared creating itself
   ([f237355](https://github.com/seedcase-project/t-squared/commit/f2373552a589d8d5cacabee4656a583cb4b6d7c8))
-
-### ❤️ New contributors
-
-- `@github-actions[bot]` started making automated contributions
-- `@dependabot[bot]` started making automated contributions
-- [`@lwjohnst86`](https://github.com/lwjohnst86) made their first contribution
