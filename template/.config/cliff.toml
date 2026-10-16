@@ -1,6 +1,6 @@
 [remote]
 # Strictly don't connect to the internet to generate the changelog.
-offline = false
+offline = true
 
 # TODO: Update these values.
 [remote.github]
@@ -104,12 +104,9 @@ output = "CHANGELOG.md"
 
 [git]
 commit_preprocessors = [
-  # TODO: Updated to include the repo URL.
+  # TODO: Update to include the repo URL.
   # Replace pull request numbers with links to GitHub.
   { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "[#${2}](https://github.com/USER/REPO/pull/${2})" },
-  # Check spelling of the commit message using https://github.com/crate-ci/typos.
-  # If the spelling is incorrect, it will be fixed automatically.
-  { pattern = '.*', replace_command = 'uvx typos --write-changes -' },
   # Remove gitmoji, both actual UTF emoji and :emoji:
   { pattern = ' *(:\w+:|[\p{Emoji_Presentation}\p{Extended_Pictographic}](?:\u{FE0F})?\u{200D}?) *', replace = "" },
 ]
